@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP8266 Readings</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="card">
+        <h1>Latest Reading</h1>
+        <p>
+          <i class="fas fa-clock"></i>
+          <strong>Millis (ESP uptime):</strong> <%= latest.millis %>
+        </p>
+        <p>
+          <i class="fas fa-thermometer-half" style="color:#059e8a;"></i>
+          <strong>Temperature:</strong> <%= latest.temperature %> °C
+        </p>
+        <p>
+          <i class="fas fa-tint" style="color:#00add6;"></i>
+          <strong>Humidity:</strong> <%= latest.humidity %> %
+        </p>
+        <p>
+          <i class="fas fa-calendar-alt"></i>
+          <strong>Server Time:</strong> <%= latest.serverTime %>
+        </p>
+      </div>
+      
+      <div class="card">
+        <h2>Stats</h2>
+        <p>
+          <i class="fas fa-temperature-low" style="color:#ff5722;"></i>
+          <strong>Lowest Temperature Recorded:</strong> <%= lowestTemp %> °C
+        </p>
+        <p>
+          <i class="fas fa-water" style="color:#0077b6;"></i>
+          <strong>Highest Humidity Recorded:</strong> <%= highestHumidity %> %
+        </p>
+      </div>
+      <script>
+        setTimeout(() => {
+          window.location.reload();
+        }, 60000); // 60,000 ms = 60 seconds
+      </script>
+</body>
+</html>

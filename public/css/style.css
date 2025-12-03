@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers content horizontally */
+  }
+  
+  h1, h2 {
+    color: #059e8a;
+    text-align: center;
+  }
+  
+  .card {
+    background: #ffffff;              /* card background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;                     /* fixed width for nice centering */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .card:nth-child(odd) {
+    background: #f9fbfc;              /* subtle alternate background */
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  strong {
+    color: #00add6;
+  }
+
+  i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    vertical-align: middle;
+  }
+  
