@@ -2,13 +2,34 @@
 <html>
 <head>
   <title>ESP8266 Readings</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/stylesheets/simple.css">
+  <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
 
 </head>
 <body>
+  <%- include('partials/navbar') %>
+
+  <script>
+    function formatTimestamp(isoString) {
+      if (!isoString) return '';
+      const date = new Date(isoString);
+      const pad = (n) => String(n).padStart(2, '0');
+      const hours = pad(date.getHours());
+      const mins = pad(date.getMinutes());
+      const secs = pad(date.getSeconds());
+      const day = pad(date.getDate());
+      const month = pad(date.getMonth() + 1);
+      const year = date.getFullYear();
+      return `${hours}:${mins}:${secs} ${day}-${month}-${year}`;
+    }
+  </script>
     <div class="card">
         <h1>Latest Reading</h1>
+        <p><a href="/history" class="button">View History</a></p>
+         <p>
+          <i class="fas fa-calendar-alt"></i>
+          <strong>Server Time:</strong> <span style="font-family: monospace;" id="serverTimeSpan" data-time="<%= latest.serverTime %>"></span>
+        </p>
         <p>
           <i class="fas fa-clock"></i>
           <strong>Millis (ESP uptime):</strong> <%= latest.millis %>
@@ -22,26 +43,59 @@
           <strong>Humidity:</strong> <%= latest.humidity %> %
         </p>
         <p>
-          <i class="fas fa-calendar-alt"></i>
-          <strong>Server Time:</strong> <%= latest.serverTime %>
+          <i class="fas fa-tint" style="color:#00add6;"></i>
+          <strong>Dew Point:</strong> <%= latest.dewPoint %> %
         </p>
+
+       
       </div>
       
       <div class="card">
         <h2>Stats</h2>
+        <%if (latest.temperature <= latest.dewPoint) { %>
+          <h3 style="color:#d32f2f;">Dew Point Alert!</h3>
+          <p style="color:#d32f2f;">
+            <i class="fas fa-exclamation-triangle"></i>
+            <strong>Warning:</strong> Current temperature (<%= latest.temperature %>) is below or equal to dew point ((<%= latest.dewPoint %>)). Condensation may occur.
+          </p>
+        <% } %>
         <p>
           <i class="fas fa-temperature-low" style="color:#ff5722;"></i>
-          <strong>Lowest Temperature Recorded:</strong> <%= lowestTemp %> °C
+          <strong>Lowest Temperature Recorded:</strong> <%= lowestTemp %> °C at <% if (lowTempTime) { %>
+            <span style="font-family: monospace;" id="lowTempTimeSpan" data-time="<%= lowTempTime %>"></span>
+          <% } %>
         </p>
         <p>
           <i class="fas fa-water" style="color:#0077b6;"></i>
-          <strong>Highest Humidity Recorded:</strong> <%= highestHumidity %> %
+          <strong>Highest Humidity Recorded:</strong> <%= highestHumidity %> <% if (highHumidityTime) { %>at
+            <span style="font-family: monospace;" id="highHumidityTimeSpan" data-time="<%= highHumidityTime %>"></span>
+          <% } %>
         </p>
       </div>
+      <div class="card">
+        <h2>History (chart removed)</h2>
+        <p>The chart has been temporarily removed. View full history <a href="/history">here</a>.</p>
+      </div>
+
       <script>
-        setTimeout(() => {
-          window.location.reload();
-        }, 60000); // 60,000 ms = 60 seconds
+        // Format and display timestamps
+        const serverTimeEl = document.getElementById('serverTimeSpan');
+        if (serverTimeEl && serverTimeEl.dataset.time) {
+          serverTimeEl.textContent = formatTimestamp(serverTimeEl.dataset.time);
+        }
+
+        const lowTempEl = document.getElementById('lowTempTimeSpan');
+        if (lowTempEl && lowTempEl.dataset.time) {
+          lowTempEl.textContent = formatTimestamp(lowTempEl.dataset.time);
+        }
+        
+        const highHumidityEl = document.getElementById('highHumidityTimeSpan');
+        if (highHumidityEl && highHumidityEl.dataset.time) {
+          highHumidityEl.textContent = formatTimestamp(highHumidityEl.dataset.time);
+        }
+
+        // keep auto-reload to refresh latest reading
+        setTimeout(() => { window.location.reload(); }, 60000);
       </script>
-</body>
+  </body>
 </html>

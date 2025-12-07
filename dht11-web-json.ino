@@ -13,8 +13,8 @@
 #include <DHT.h>
 
 // Replace with your network credentials
-const char* ssid = "enter-SSID";
-const char* password = "enter-WIFI-pWD";
+const char* ssid = "update-with-your-SSID";
+const char* password = "update-with-your-PASSWORD";
 
 
 #define DHTPIN 5     // Digital pin connected to the DHT sensor
@@ -29,6 +29,7 @@ DHT dht(DHTPIN, DHTTYPE);
 // current temperature & humidity, updated in loop()
 float t = 0.0;
 float h = 0.0;
+float dp = 0.0;
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
@@ -40,67 +41,6 @@ unsigned long previousMillis = 0;    // will store last time DHT was updated
 // Updates DHT readings every 10 seconds
 const long interval = 10000;  
 
-const char index_html[] PROGMEM = R"rawliteral(
-<!DOCTYPE HTML><html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <style>
-    html {
-     font-family: Arial;
-     display: inline-block;
-     margin: 0px auto;
-     text-align: center;
-    }
-    h2 { font-size: 3.0rem; }
-    p { font-size: 3.0rem; }
-    .units { font-size: 1.2rem; }
-    .dht-labels{
-      font-size: 1.5rem;
-      vertical-align:middle;
-      padding-bottom: 15px;
-    }
-  </style>
-</head>
-<body>
-  <h2>ESP8266 DHT Server</h2>
-  <p>
-    <i class="fas fa-thermometer-half" style="color:#059e8a;"></i> 
-    <span class="dht-labels">Temperature</span> 
-    <span id="temperature">%TEMPERATURE%</span>
-    <sup class="units">&deg;C</sup>
-  </p>
-  <p>
-    <i class="fas fa-tint" style="color:#00add6;"></i> 
-    <span class="dht-labels">Humidity</span>
-    <span id="humidity">%HUMIDITY%</span>
-    <sup class="units">%</sup>
-  </p>
-</body>
-<script>
-setInterval(function ( ) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("temperature").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "/temperature", true);
-  xhttp.send();
-}, 10000 ) ;
-
-setInterval(function ( ) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("humidity").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "/humidity", true);
-  xhttp.send();
-}, 10000 ) ;
-</script>
-</html>)rawliteral";
 
 // Replaces placeholder with DHT values
 String processor(const String& var){
@@ -140,8 +80,10 @@ void setup(){
     String json = "{";
     json += "\"millis\":" + String(millis()) + ",";
     json += "\"temperature\":" + String(t) + ",";
-    json += "\"humidity\":" + String(h);
+    json += "\"humidity\":" + String(h) + ",";
+    json += "\"dewPoint\":" + String(dp);
     json += "}";
+    Serial.println(json);
     request->send(200, "application/json", json);
   });
 
@@ -172,7 +114,7 @@ void loop(){
     }
     else {
       t = newT;
-      Serial.println(t);
+      //Serial.println(t);
     }
     // Read Humidity
     float newH = dht.readHumidity();
@@ -182,7 +124,14 @@ void loop(){
     }
     else {
       h = newH;
-      Serial.println(h);
+      //Serial.println(h);
     }
+    dp = (t-(100-h)/ 5);
+    
+    String msg = "millis:" + String(millis());
+    msg += " temperature:" + String(t);
+    msg += " humidity:" + String(h);
+    msg += " dewPoint:" + String(dp);
+    Serial.println(msg);
   }
 }

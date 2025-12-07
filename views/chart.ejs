@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature & Humidity Chart</title>
+  <link rel="stylesheet" href="/stylesheets/simple.css">
+  <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+</head>
+<body>
+  <%- include('partials/navbar') %>
+
+  <div class="card">
+    <h1>Temperature & Humidity</h1>
+    <p>
+      <a href="/" class="button">Back to Latest</a>
+      <a href="/history" class="button">View Table</a>
+      <a href="/history.json" class="button">Download JSON</a>
+    </p>
+
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px;">
+      <label>Bucket (sec):
+        <select id="bucketSelect">
+          <option value="0">Raw</option>
+          <option value="60">60s</option>
+          <option value="300">5m</option>
+          <option value="900">15m</option>
+        </select>
+      </label>
+
+      <label>Smoothing window (points):
+        <input id="smoothWindow" type="number" min="1" value="1" style="width:80px;margin-left:6px;" />
+      </label>
+
+      <label style="display:flex;align-items:center;gap:6px;margin-left:6px;">
+        <input id="applySmoothing" type="checkbox" /> Apply smoothing
+      </label>
+
+      <button id="applyBtn" class="button">Apply</button>
+      <button id="refreshBtn" class="button">Refresh</button>
+      <label style="margin-left:auto;">Auto-refresh:
+        <input id="autoRefresh" type="checkbox" />
+      </label>
+    </div>
+
+    <canvas id="chartCanvas" width="800" height="400"></canvas>
+    <p id="status" style="margin-top:8px;color:#666;"></p>
+  </div>
+
+  <!-- Chart.js and date adapter -->
+  <script src="/javascripts/chart.js"></script>
+  <script src="/javascripts/chartjs-adapter-date-fns.js"></script>
+
+  <script>
+    const statusEl = document.getElementById('status');
+    let chart = null;
+    let autoTimer = null;
+
+    function movingAverage(data, windowSize) {
+      if (!windowSize || windowSize <= 1) return data.slice();
+      const out = new Array(data.length).fill(null);
+      for (let i = 0; i < data.length; i++) {
+        let sum = 0, count = 0;
+        for (let j = Math.max(0, i - windowSize + 1); j <= i; j++) {
+          const v = data[j];
+          if (v !== null && v !== undefined && !Number.isNaN(v)) { sum += v; count++; }
+        }
+        out[i] = count ? (sum / count) : null;
+      }
+      return out;
+    }
+
+    async function loadAndPlot() {
+      try {
+        statusEl.textContent = 'Loading data...';
+        const bucket = document.getElementById('bucketSelect').value;
+        const res = await fetch('/history.json' + (bucket && bucket !== '0' ? ('?bucket=' + encodeURIComponent(bucket)) : ''));
+        const rows = await res.json();
+
+        if (!Array.isArray(rows) || rows.length === 0) {
+          statusEl.textContent = 'No data available';
+          return;
+        }
+
+        // Map data to chart datasets
+        const labels = rows.map(r => new Date(r.serverTime));
+        const tempsRaw = rows.map(r => (r.temperature !== undefined && r.temperature !== null ? Number(r.temperature) : null));
+        const humsRaw = rows.map(r => (r.humidity !== undefined && r.humidity !== null ? Number(r.humidity) : null));
+
+        // apply smoothing if requested
+        const applySmoothing = document.getElementById('applySmoothing').checked;
+        const windowSize = parseInt(document.getElementById('smoothWindow').value, 10) || 1;
+        const temps = applySmoothing ? movingAverage(tempsRaw, windowSize) : tempsRaw.slice();
+        const hums = applySmoothing ? movingAverage(humsRaw, windowSize) : humsRaw.slice();
+
+        const ctx = document.getElementById('chartCanvas').getContext('2d');
+        if (chart) chart.destroy();
+        chart = new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [
+              {
+                label: 'Temperature (°C)',
+                data: temps,
+                borderColor: '#e94f37',
+                backgroundColor: 'rgba(233,79,55,0.1)',
+                yAxisID: 'yTemp',
+                tension: 0.2,
+                spanGaps: true
+              },
+              {
+                label: 'Humidity (%)',
+                data: hums,
+                borderColor: '#0b76b6',
+                backgroundColor: 'rgba(11,118,182,0.08)',
+                yAxisID: 'yHum',
+                tension: 0.2,
+                spanGaps: true
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            interaction: {
+              mode: 'index',
+              intersect: false
+            },
+            stacked: false,
+            scales: {
+              x: {
+                type: 'time',
+                time: {
+                  tooltipFormat: 'yyyy-MM-dd HH:mm:ss',
+                  displayFormats: { minute: 'HH:mm', hour: 'HH:mm', day: 'MMM d' }
+                },
+                title: { display: true, text: 'Server Time' }
+              },
+              yTemp: {
+                type: 'linear',
+                position: 'left',
+                title: { display: true, text: 'Temperature (°C)' }
+              },
+              yHum: {
+                type: 'linear',
+                position: 'right',
+                grid: { drawOnChartArea: false },
+                title: { display: true, text: 'Humidity (%)' }
+              }
+            }
+          }
+        });
+
+        statusEl.textContent = `Plotted ${rows.length} points`;
+        // schedule auto-refresh if enabled
+        if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+        if (document.getElementById('autoRefresh').checked) {
+          autoTimer = setInterval(() => { loadAndPlot(); }, 30000);
+        }
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = 'Error loading data';
+      }
+    }
+
+    document.getElementById('applyBtn').addEventListener('click', loadAndPlot);
+    document.getElementById('refreshBtn').addEventListener('click', loadAndPlot);
+    loadAndPlot();
+  </script>
+</body>
+</html>

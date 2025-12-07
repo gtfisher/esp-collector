@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reading History</title>
+  <!--<link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.css">-->
+  <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+  <link rel="stylesheet" href="/stylesheets/history.css">
+  <!--/* Page-specific overrides to defeat simple.css max-width constraints */-->
+  <!--<style> body.history-page, body.history-page header, body.history-page main, body.history-page footer { max-width: none !important; width: 100% !important; } body.history-page .card { max-width: none !important; width: 100% !important; margin-left: 0 !important; margin-right: 0 !important; padding-left: 8px !important; padding-right: 8px !important; } body.history-page p { max-width: none !important; white-space: normal !important; } body.history-page .ag-theme-alpine { width: 100% !important; max-width: none !important; } </style>-->
+</head>
+<body>
+  <%- include('partials/navbar') %>
+
+  <header style="max-width:none;width:100%;padding:0 24px;">
+    <h1><i class="fas fa-history"></i> Today's Reading History <span id="headerDate"></span></h1>
+    <p>
+      <a href="/" class="button"><i class="fas fa-home"></i> Back to Latest</a>
+      <a href="/history.json" class="button"><i class="fas fa-file-code"></i> Download JSON</a>
+      <a href="/download-today.csv" class="button"><i class="fas fa-file-csv"></i> Download Today's CSV (raw)</a>
+      <button id="exportGridCsv" class="button"><i class="fas fa-download"></i> Export Grid CSV</button>
+    </p>
+  </header>
+  <main style="max-width:none;width:100%;padding:0 24px;">
+    <p style="max-width:none;">
+      The table below shows all readings recorded today. Use the column headers to sort or filter the data as needed. 
+      A new CSV file is created each day. The readings are obtained from an exp8266 device with a DHT11 sensor
+    </p>
+    <!-- AG Grid container (full width with margins) -->
+    <div id="myGrid" class="ag-theme-alpine"></div>
+  </main>
+  
+
+  <hr />
+  <footer>
+    <p style="text-align:center;color:#666;font-size:0.9em;margin-top:16px;">
+      &copy; 2024 ESP Collector
+    </p>
+  </footer>
+
+  <script>
+    // AG Grid will be initialized below; we embed the server-side data as JSON
+    const serverReadings = <%- JSON.stringify(readings || []) %>;
+
+    // Map server rows to grid rows with split date/time and status
+    function buildGridRows(data) {
+      return data.map((r, i) => {
+        const ts = r.serverTime || '';
+        const temp = (r.temperature !== undefined && r.temperature !== null) ? Number(r.temperature) : null;
+        const dew = (r.dewPoint !== undefined && r.dewPoint !== null) ? Number(r.dewPoint) : null;
+        let status = '';
+        if (temp !== null && dew !== null) {
+          status = (temp <= dew) ? 'Warning' : 'OK';
+        }
+        return {
+          id: i + 1,
+          serverTime: ts,
+          millis: r.millis || '',
+          temperature: temp,
+          humidity: r.humidity !== undefined ? r.humidity : '',
+          dewPoint: dew,
+          status: status
+        };
+      });
+    }
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function formatTime(isoString) {
+      if (!isoString) return '';
+      const d = new Date(isoString);
+      return `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+    }
+    function formatDate(isoString) {
+      if (!isoString) return '';
+      const d = new Date(isoString);
+      return `${pad(d.getDate())}-${pad(d.getMonth()+1)}-${d.getFullYear()}`;
+    }
+
+    // Set today's date in the header
+    (function() {
+      const today = new Date();
+      const dateStr = `${pad(today.getDate())}-${pad(today.getMonth()+1)}-${today.getFullYear()}`;
+      document.getElementById('headerDate').textContent = `(${dateStr})`;
+    })();
+
+    // Load AG Grid resources and initialize grid
+    document.addEventListener('DOMContentLoaded', function() {
+      const agCss1 = document.createElement('link');
+      agCss1.rel = 'stylesheet';
+      agCss1.href = '/stylesheets/ag-grid.css';
+      document.head.appendChild(agCss1);
+      const agCss2 = document.createElement('link');
+      agCss2.rel = 'stylesheet';
+      agCss2.href = '/stylesheets/ag-theme-alpine.css';
+      document.head.appendChild(agCss2);
+
+      const s = document.createElement('script');
+      // Use a UMD build that exposes the global `agGrid` reliably
+      s.src = '/javascripts/ag-grid-community.min.noStyle.js';
+      s.onload = () => {
+        const columnDefs = [
+          { headerName: '#', field: 'id', width: 20, sortable: true, filter: 'agNumberColumnFilter', cellStyle: { textAlign: 'center' } },
+          { headerName: 'Date', field: 'date', valueGetter: (p) => formatDate(p.data.serverTime), width: 30, sortable: true, filter: 'agDateColumnFilter', cellStyle: { textAlign: 'center' } },
+          { headerName: 'Time', field: 'time', valueGetter: (p) => formatTime(p.data.serverTime), width: 30, cellStyle: { textAlign: 'center' } },
+          { headerName: 'Millis', field: 'millis', width: 30, sortable: true, filter: 'agNumberColumnFilter', cellStyle: { textAlign: 'center' } },
+          { headerName: 'Temp (°C)', field: 'temperature', width: 40, sortable: true, filter: 'agNumberColumnFilter', cellStyle: { textAlign: 'center' } },
+          { headerName: 'Humidity (%)', field: 'humidity', width: 40, sortable: true, filter: 'agNumberColumnFilter', cellStyle: { textAlign: 'center' } },
+          { headerName: 'Dew Point (°C)', field: 'dewPoint', width: 40, sortable: true, filter: 'agNumberColumnFilter', cellStyle: { textAlign: 'center' } },
+          { headerName: 'Status', field: 'status', width: 40, cellStyle: params => ({ color: params.value === 'Warning' ? '#d32f2f' : (params.value === 'OK' ? '#2e7d32' : 'inherit'), fontWeight: params.value ? 600 : 'normal', textAlign: 'center' }), filter: true }
+        ];
+
+        const gridOptions = {
+          columnDefs: columnDefs,
+          defaultColDef: { resizable: true, floatingFilter: true, filter: true, sortable: true, headerClass: 'ag-center-header' },
+          rowSelection: 'single',
+          animateRows: true,
+          pagination: true,
+          paginationPageSize: 50
+        };
+
+        const eGridDiv = document.querySelector('#myGrid');
+        new agGrid.Grid(eGridDiv, gridOptions);
+        const rows = buildGridRows(serverReadings);
+        gridOptions.api.setRowData(rows);
+        // Size columns to fit container so all columns (including Status) are visible when possible
+        try { gridOptions.api.sizeColumnsToFit(); } catch (e) { /* ignore if called before render */ }
+
+        // Export button
+        const exportBtn = document.getElementById('exportGridCsv');
+        if (exportBtn) exportBtn.addEventListener('click', () => gridOptions.api.exportDataAsCsv({ fileName: 'grid-export.csv' }));
+      };
+      document.body.appendChild(s);
+    });
+  </script>
+</body>
+</html>

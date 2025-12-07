@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP8266 Documentation</title>
+  <link rel="stylesheet" href="/stylesheets/simple.css">
+  <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+  <style>
+    pre {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: 'Courier New', monospace;
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+    pre code {
+      background: none;
+      padding: 0;
+    }
+    .info-box {
+      background: #e3f2fd;
+      border-left: 4px solid #2196f3;
+      padding: 12px;
+      margin: 16px 0;
+    }
+    .warning-box {
+      background: #fff3e0;
+      border-left: 4px solid #ff9800;
+      padding: 12px;
+      margin: 16px 0;
+    }
+  </style>
+</head>
+<body>
+  <%- include('partials/navbar') %>
+
+  <header>
+    <h1><i class="fas fa-book"></i> ESP8266 Documentation</h1>
+    <p>
+      <a href="/" class="button"><i class="fas fa-home"></i> Back to Home</a>
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Overview</h2>
+      <p>
+        This application collects temperature and humidity readings from an ESP8266 microcontroller with a DHT11 sensor.
+        The ESP8266 serves the readings as JSON via HTTP, and this Node.js server polls the ESP8266 every 10 seconds
+        to collect and store the data.
+      </p>
+    </section>
+
+    <section>
+      <h2>ESP8266 Hardware Setup</h2>
+      <h3>Required Components</h3>
+      <ul>
+        <li><strong>ESP8266</strong> (NodeMCU, Wemos D1 Mini, or similar)</li>
+        <li><strong>DHT11</strong> temperature and humidity sensor</li>
+        <li><strong>Jumper wires</strong> for connections</li>
+        <li><strong>USB cable</strong> for power and programming</li>
+      </ul>
+
+      <h3>Wiring Diagram</h3>
+      <div class="info-box">
+        <strong>DHT11 Pin Connections:</strong>
+        <ul style="margin-top: 8px;">
+          <li><strong>VCC (Pin 1)</strong> → Connect to 3.3V on ESP8266</li>
+          <li><strong>DATA (Pin 2)</strong> → Connect to GPIO pin (e.g., D4/GPIO2)</li>
+          <li><strong>GND (Pin 4)</strong> → Connect to GND on ESP8266</li>
+        </ul>
+      </div>
+
+      <div class="warning-box">
+        <strong>⚠️ Important:</strong> Some DHT11 modules have only 3 pins (VCC, DATA, GND). 
+        Make sure to use 3.3V power, not 5V, to avoid damaging the ESP8266.
+      </div>
+
+        <img src="/images/esp8266-sensor.png" alt="DHT11 Wiring Diagram" style="max-width:100%;border:1px solid #ddd;padding:8px;border-radius:4px;" />
+
+    </section>
+
+    <section>
+      <h2>ESP8266 Firmware</h2>
+      <h3>Arduino Code</h3>
+      <p>Upload the following code to your ESP8266 using the Arduino IDE:</p>
+
+      <% if (arduinoCode) { %>
+      <pre><code><%= arduinoCode %></code></pre>
+      <% } else { %>
+      <div class="warning-box">
+        <strong>⚠️ Arduino code file not found.</strong> The <code>dht11-web-json.ino</code> file should be in the project root directory.
+      </div>
+      <% } %>
+
+      <div class="info-box">
+        <strong>💡 Note:</strong> Make sure to update the WiFi credentials in the code with your actual WiFi SSID and password.
+      </div>
+    </section>
+
+    <section>
+      <h2>Arduino IDE Setup</h2>
+      <ol>
+        <li>Install the <strong>Arduino IDE</strong> from <a href="https://www.arduino.cc/en/software" target="_blank">arduino.cc</a></li>
+        <li>Add ESP8266 board support:
+          <ul>
+            <li>Go to <strong>File → Preferences</strong></li>
+            <li>Add this URL to "Additional Board Manager URLs": <code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code></li>
+            <li>Go to <strong>Tools → Board → Boards Manager</strong></li>
+            <li>Search for "esp8266" and install the <strong>ESP8266 Community</strong> package</li>
+          </ul>
+        </li>
+        <li>Install required libraries:
+          <ul>
+            <li>Go to <strong>Sketch → Include Library → Manage Libraries</strong></li>
+            <li>Search and install: <strong>DHT sensor library</strong> by Adafruit</li>
+            <li>Also install: <strong>Adafruit Unified Sensor</strong> (dependency)</li>
+          </ul>
+        </li>
+        <li>Select your board:
+          <ul>
+            <li>Go to <strong>Tools → Board</strong></li>
+            <li>Select your ESP8266 board (e.g., "NodeMCU 1.0")</li>
+          </ul>
+        </li>
+        <li>Select the correct port under <strong>Tools → Port</strong></li>
+        <li>Click <strong>Upload</strong> to flash the firmware</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Configuration</h2>
+      <h3>Server Configuration</h3>
+      <p>Create a <code>.env</code> file in the project root with the following settings:</p>
+      <pre><code># ESP8266 device URL (replace with your ESP8266's IP address)
+ESP_URL=http://192.168.1.195/
+
+# Maximum number of readings to keep in memory
+READINGS_LIMIT=100
+
+# Server port (optional, defaults to 3000)
+PORT=3000</code></pre>
+
+      <div class="warning-box">
+        <strong>⚠️ Important:</strong> Make sure to update <code>ESP_URL</code> with the actual IP address shown on the 
+        ESP8266's Serial Monitor after it connects to WiFi.
+      </div>
+    </section>
+
+    <section>
+      <h2>JSON Response Format</h2>
+      <p>The ESP8266 returns data in the following JSON format:</p>
+      <pre><code>{
+  "millis": 17563482,
+  "temperature": 17.4,
+  "humidity": 65.0,
+  "dewPoint": 10.4
+}</code></pre>
+
+      <h3>Field Descriptions</h3>
+      <ul>
+        <li><strong>millis</strong>: Milliseconds since ESP8266 boot (used for tracking uptime)</li>
+        <li><strong>temperature</strong>: Temperature in degrees Celsius</li>
+        <li><strong>humidity</strong>: Relative humidity percentage (0-100)</li>
+        <li><strong>dewPoint</strong>: Calculated dew point in degrees Celsius</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Troubleshooting</h2>
+      
+      <h3>ESP8266 Not Connecting to WiFi</h3>
+      <ul>
+        <li>Double-check WiFi credentials in the Arduino code</li>
+        <li>Ensure your WiFi network is 2.4GHz (ESP8266 doesn't support 5GHz)</li>
+        <li>Check Serial Monitor output for connection errors</li>
+      </ul>
+
+      <h3>Sensor Readings Show NaN or Error</h3>
+      <ul>
+        <li>Verify DHT11 wiring connections</li>
+        <li>Check that DHTPIN matches your actual GPIO pin</li>
+        <li>Try adding a 10kΩ pull-up resistor between DATA and VCC</li>
+        <li>Ensure DHT sensor has adequate power supply</li>
+      </ul>
+
+      <h3>Server Cannot Reach ESP8266</h3>
+      <ul>
+        <li>Verify ESP8266 IP address in <code>.env</code> file</li>
+        <li>Ensure server and ESP8266 are on the same network</li>
+        <li>Try accessing <code>http://&lt;ESP_IP&gt;/</code> in a browser</li>
+        <li>Check firewall settings on the server machine</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Data Storage</h2>
+      <p>This application stores data in two formats:</p>
+      
+      <h3>1. JSON Database</h3>
+      <p>Located at <code>data/readings.json</code></p>
+      <ul>
+        <li>Keeps the most recent readings in memory (default: 100 readings)</li>
+        <li>Used for quick access to latest data</li>
+        <li>Automatically trimmed to prevent unlimited growth</li>
+      </ul>
+
+      <h3>2. Daily CSV Files</h3>
+      <p>Located at <code>data/csv/YYYY-MM-DD.csv</code></p>
+      <ul>
+        <li>One file per day (e.g., <code>2025-12-07.csv</code>)</li>
+        <li>Permanent historical record</li>
+        <li>Can be imported into Excel, Google Sheets, etc.</li>
+        <li>Format: <code>serverTime,millis,temperature,humidity,dewPoint</code></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Additional Resources</h2>
+      <ul>
+        <li><a href="https://www.arduino.cc/reference/en/libraries/dht-sensor-library/" target="_blank">DHT Sensor Library Documentation</a></li>
+        <li><a href="https://arduino-esp8266.readthedocs.io/" target="_blank">ESP8266 Arduino Core Documentation</a></li>
+        <li><a href="https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/" target="_blank">ESP8266 + DHT11 Tutorial</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer style="text-align:center;padding:24px;color:#666;margin-top:48px;border-top:1px solid #ddd;">
+    <p>&copy; 2025 ESP Collector</p>
+  </footer>
+</body>
+</html>
