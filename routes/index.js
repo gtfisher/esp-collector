@@ -8,6 +8,7 @@ const FileSync = require('lowdb/adapters/FileSync');
 // Configurable via environment (.env)
 const READINGS_LIMIT = parseInt(process.env.READINGS_LIMIT, 10) || 100;
 const ESP_URL = process.env.ESP_URL || 'http://192.168.1.195/';
+const SAMPLE_RATE = parseInt(process.env.SAMPLE_RATE, 10) || 10; // seconds
 
 // DB file (stored in ./data/readings.json)
 const dbFile = path.join(__dirname, '..', 'data', 'readings.json');
@@ -119,7 +120,7 @@ async function getReading() {
     }
   }
 
-  const intervalId = setInterval(getReading, 10000);
+  const intervalId = setInterval(getReading, SAMPLE_RATE * 1000);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

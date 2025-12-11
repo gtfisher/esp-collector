@@ -17,10 +17,20 @@
     </p>
 
     <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px;">
+      <label>Time Window:
+        <select id="timeWindowSelect">
+          <option value="all">All Data</option>
+          <option value="24" selected>Last 24 Hours</option>
+          <option value="12">Last 12 Hours</option>
+          <option value="6">Last 6 Hours</option>
+          <option value="1">Last 1 Hour</option>
+        </select>
+      </label>
+
       <label>Bucket (sec):
         <select id="bucketSelect">
           <option value="0">Raw</option>
-          <option value="60">60s</option>
+          <option value="60" selected>60s</option>
           <option value="300">5m</option>
           <option value="900">15m</option>
         </select>
@@ -72,7 +82,28 @@
       try {
         statusEl.textContent = 'Loading data...';
         const bucket = document.getElementById('bucketSelect').value;
-        const res = await fetch('/history.json' + (bucket && bucket !== '0' ? ('?bucket=' + encodeURIComponent(bucket)) : ''));
+        const timeWindow = document.getElementById('timeWindowSelect').value;
+        
+        // Build URL with parameters
+        let url = '/history.json';
+        const params = [];
+        
+        if (bucket && bucket !== '0') {
+          params.push('bucket=' + encodeURIComponent(bucket));
+        }
+        
+        // Calculate start time for rolling window
+        if (timeWindow && timeWindow !== 'all') {
+          const hoursBack = parseInt(timeWindow, 10);
+          const startTime = new Date(Date.now() - (hoursBack * 60 * 60 * 1000));
+          params.push('start=' + encodeURIComponent(startTime.toISOString()));
+        }
+        
+        if (params.length > 0) {
+          url += '?' + params.join('&');
+        }
+        
+        const res = await fetch(url);
         const rows = await res.json();
 
         if (!Array.isArray(rows) || rows.length === 0) {
@@ -132,7 +163,12 @@
                   tooltipFormat: 'yyyy-MM-dd HH:mm:ss',
                   displayFormats: { minute: 'HH:mm', hour: 'HH:mm', day: 'MMM d' }
                 },
-                title: { display: true, text: 'Server Time' }
+                title: { display: true, text: 'Server Time' },
+                ticks: {
+                  source: 'auto',
+                  maxRotation: 45,
+                  minRotation: 0
+                }
               },
               yTemp: {
                 type: 'linear',

@@ -1,3504 +1,3504 @@
 {
   "readings": [
     {
-      "millis": 12915833,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:23:28.376Z"
-    },
-    {
-      "millis": 12925841,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:23:38.384Z"
-    },
-    {
-      "millis": 12935860,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:23:48.403Z"
-    },
-    {
-      "millis": 12945854,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:23:58.397Z"
-    },
-    {
-      "millis": 12955872,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:24:08.414Z"
-    },
-    {
-      "millis": 12965867,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:24:18.408Z"
-    },
-    {
-      "millis": 12975868,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:24:28.409Z"
-    },
-    {
-      "millis": 12985881,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:24:38.422Z"
-    },
-    {
-      "millis": 12995881,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:24:48.422Z"
-    },
-    {
-      "millis": 13005901,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:24:58.442Z"
-    },
-    {
-      "millis": 13015908,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:25:08.469Z"
-    },
-    {
-      "millis": 13025923,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:25:18.464Z"
-    },
-    {
-      "millis": 13035951,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:25:28.492Z"
-    },
-    {
-      "millis": 13045943,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:25:38.486Z"
-    },
-    {
-      "millis": 13055935,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:25:48.477Z"
-    },
-    {
-      "millis": 13065953,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:25:58.495Z"
-    },
-    {
-      "millis": 13075961,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:26:08.504Z"
-    },
-    {
-      "millis": 13085980,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:26:18.530Z"
-    },
-    {
-      "millis": 13095987,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:26:28.546Z"
-    },
-    {
-      "millis": 13105998,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:26:38.539Z"
-    },
-    {
-      "millis": 13116087,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:26:48.629Z"
-    },
-    {
-      "millis": 13126124,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:26:58.665Z"
-    },
-    {
-      "millis": 13136016,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:27:08.563Z"
-    },
-    {
-      "millis": 13146089,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:27:18.633Z"
-    },
-    {
-      "millis": 13156033,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:27:28.574Z"
-    },
-    {
-      "millis": 13166162,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:27:38.702Z"
-    },
-    {
-      "millis": 13176093,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:27:48.634Z"
-    },
-    {
-      "millis": 13186054,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:27:58.603Z"
-    },
-    {
-      "millis": 13196165,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:28:08.705Z"
-    },
-    {
-      "millis": 13206070,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:28:18.627Z"
-    },
-    {
-      "millis": 13216133,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:28:28.674Z"
-    },
-    {
-      "millis": 13226109,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:28:38.649Z"
-    },
-    {
-      "millis": 13236107,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:28:48.648Z"
-    },
-    {
-      "millis": 13246131,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:28:58.672Z"
-    },
-    {
-      "millis": 13256116,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:29:08.657Z"
-    },
-    {
-      "millis": 13266126,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:29:18.667Z"
-    },
-    {
-      "millis": 13423202,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:31:55.746Z"
-    },
-    {
-      "millis": 13433190,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:32:05.729Z"
-    },
-    {
-      "millis": 13443201,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:32:15.741Z"
-    },
-    {
-      "millis": 13453198,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:32:25.737Z"
-    },
-    {
-      "millis": 13463225,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:32:35.765Z"
-    },
-    {
-      "millis": 13473222,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:32:45.762Z"
-    },
-    {
-      "millis": 13483240,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:32:55.780Z"
-    },
-    {
-      "millis": 13493237,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:33:05.777Z"
-    },
-    {
-      "millis": 13503368,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:33:15.908Z"
-    },
-    {
-      "millis": 13513258,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:33:25.798Z"
-    },
-    {
-      "millis": 13523279,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:33:35.818Z"
-    },
-    {
-      "millis": 13533279,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:33:45.818Z"
-    },
-    {
-      "millis": 13543303,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:33:55.843Z"
-    },
-    {
-      "millis": 13553303,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:34:05.841Z"
-    },
-    {
-      "millis": 13563317,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:34:15.856Z"
-    },
-    {
-      "millis": 13573318,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:34:25.858Z"
-    },
-    {
-      "millis": 13583341,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:34:35.880Z"
-    },
-    {
-      "millis": 13593324,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:34:45.862Z"
-    },
-    {
-      "millis": 13603329,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:34:55.868Z"
-    },
-    {
-      "millis": 13613346,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:35:05.885Z"
-    },
-    {
-      "millis": 13623344,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:35:15.883Z"
-    },
-    {
-      "millis": 13633362,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:35:25.901Z"
-    },
-    {
-      "millis": 13643362,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:35:35.900Z"
-    },
-    {
-      "millis": 13653384,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:35:45.923Z"
-    },
-    {
-      "millis": 13663380,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:35:55.918Z"
-    },
-    {
-      "millis": 13673382,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:36:05.928Z"
-    },
-    {
-      "millis": 13683389,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:36:15.928Z"
-    },
-    {
-      "millis": 13693420,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:36:25.959Z"
-    },
-    {
-      "millis": 13703402,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:36:35.940Z"
-    },
-    {
-      "millis": 13713412,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:36:45.950Z"
-    },
-    {
-      "millis": 13723433,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:36:55.971Z"
-    },
-    {
-      "millis": 13733468,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:37:06.005Z"
-    },
-    {
-      "millis": 13743442,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:37:15.980Z"
-    },
-    {
-      "millis": 13753447,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:37:25.985Z"
-    },
-    {
-      "millis": 13763470,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:37:36.008Z"
-    },
-    {
-      "millis": 13773456,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:37:45.994Z"
-    },
-    {
-      "millis": 13783460,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:37:55.998Z"
-    },
-    {
-      "millis": 13793473,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:38:06.010Z"
-    },
-    {
-      "millis": 13803512,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:38:16.051Z"
-    },
-    {
-      "millis": 13813543,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:38:26.080Z"
-    },
-    {
-      "millis": 13823478,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:38:36.015Z"
-    },
-    {
-      "millis": 13833509,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:38:46.049Z"
-    },
-    {
-      "millis": 13843489,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:38:56.027Z"
-    },
-    {
-      "millis": 13853580,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:39:06.117Z"
-    },
-    {
-      "millis": 13863512,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:39:16.050Z"
-    },
-    {
-      "millis": 13873502,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:39:26.039Z"
-    },
-    {
-      "millis": 13883503,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:39:36.041Z"
-    },
-    {
-      "millis": 13893619,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:39:46.157Z"
-    },
-    {
-      "millis": 13903515,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:39:56.053Z"
-    },
-    {
-      "millis": 13913544,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:40:06.082Z"
-    },
-    {
-      "millis": 13923624,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:40:16.162Z"
-    },
-    {
-      "millis": 13933659,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:40:26.197Z"
-    },
-    {
-      "millis": 13943592,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:40:36.129Z"
-    },
-    {
-      "millis": 13953628,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:40:46.166Z"
-    },
-    {
-      "millis": 13963577,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:40:56.120Z"
-    },
-    {
-      "millis": 13973594,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:41:06.131Z"
-    },
-    {
-      "millis": 13983590,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:41:16.127Z"
-    },
-    {
-      "millis": 13993593,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:41:26.137Z"
-    },
-    {
-      "millis": 14003607,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:41:36.144Z"
-    },
-    {
-      "millis": 14013737,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:41:46.276Z"
-    },
-    {
-      "millis": 14023615,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:41:56.151Z"
-    },
-    {
-      "millis": 14033706,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:42:06.243Z"
-    },
-    {
-      "millis": 14043758,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:42:16.295Z"
-    },
-    {
-      "millis": 14053636,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:42:26.173Z"
-    },
-    {
-      "millis": 14063709,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:42:36.246Z"
-    },
-    {
-      "millis": 14073742,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:42:46.282Z"
-    },
-    {
-      "millis": 14083779,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:42:56.317Z"
-    },
-    {
-      "millis": 14093657,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:43:06.194Z"
-    },
-    {
-      "millis": 14103668,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:43:16.206Z"
-    },
-    {
-      "millis": 14113681,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:43:26.218Z"
-    },
-    {
-      "millis": 14123678,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:43:36.214Z"
-    },
-    {
-      "millis": 14133693,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:43:46.229Z"
-    },
-    {
-      "millis": 14143699,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:43:56.235Z"
-    },
-    {
-      "millis": 14153718,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:44:06.256Z"
-    },
-    {
-      "millis": 14163715,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:44:16.250Z"
-    },
-    {
-      "millis": 14173729,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:44:26.273Z"
-    },
-    {
-      "millis": 14183728,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:44:36.264Z"
-    },
-    {
-      "millis": 14193731,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:44:46.284Z"
-    },
-    {
-      "millis": 14203735,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:44:56.271Z"
-    },
-    {
-      "millis": 14213744,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:45:06.280Z"
-    },
-    {
-      "millis": 14223763,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:45:16.299Z"
-    },
-    {
-      "millis": 14233765,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:45:26.301Z"
-    },
-    {
-      "millis": 14243775,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:45:36.311Z"
-    },
-    {
-      "millis": 14253777,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:45:46.313Z"
-    },
-    {
-      "millis": 14263799,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:45:56.335Z"
-    },
-    {
-      "millis": 14273791,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:46:06.327Z"
-    },
-    {
-      "millis": 14283795,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:46:16.331Z"
-    },
-    {
-      "millis": 14293810,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:46:26.347Z"
-    },
-    {
-      "millis": 14303802,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:46:36.338Z"
-    },
-    {
-      "millis": 14313813,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:46:46.350Z"
-    },
-    {
-      "millis": 14323815,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:46:56.351Z"
-    },
-    {
-      "millis": 14333838,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:47:06.373Z"
-    },
-    {
-      "millis": 14343821,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:47:16.357Z"
-    },
-    {
-      "millis": 14353822,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:47:26.357Z"
-    },
-    {
-      "millis": 14363845,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:47:36.380Z"
-    },
-    {
-      "millis": 14373837,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:47:46.373Z"
-    },
-    {
-      "millis": 14383846,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:47:56.387Z"
-    },
-    {
-      "millis": 14393854,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:48:06.390Z"
-    },
-    {
-      "millis": 14403880,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:48:16.416Z"
-    },
-    {
-      "millis": 14413870,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:48:26.406Z"
-    },
-    {
-      "millis": 14423897,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:48:36.433Z"
-    },
-    {
-      "millis": 14433891,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:48:46.427Z"
-    },
-    {
-      "millis": 14443893,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:48:56.428Z"
-    },
-    {
-      "millis": 14453903,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:49:06.438Z"
-    },
-    {
-      "millis": 14463905,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:49:16.441Z"
-    },
-    {
-      "millis": 14473928,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:49:26.463Z"
-    },
-    {
-      "millis": 14483928,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:49:36.463Z"
-    },
-    {
-      "millis": 14493955,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:49:46.490Z"
-    },
-    {
-      "millis": 14503946,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:49:56.481Z"
-    },
-    {
-      "millis": 14513966,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:50:06.501Z"
-    },
-    {
-      "millis": 14523960,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:50:16.496Z"
-    },
-    {
-      "millis": 14533961,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:50:26.496Z"
-    },
-    {
-      "millis": 14543969,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:50:36.504Z"
-    },
-    {
-      "millis": 14554005,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:50:46.540Z"
-    },
-    {
-      "millis": 14563991,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:50:56.526Z"
-    },
-    {
-      "millis": 14574019,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:51:06.553Z"
-    },
-    {
-      "millis": 14584010,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:51:16.546Z"
-    },
-    {
-      "millis": 14594044,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:51:26.579Z"
-    },
-    {
-      "millis": 14604026,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:51:36.561Z"
-    },
-    {
-      "millis": 14614031,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:51:46.566Z"
-    },
-    {
-      "millis": 14624055,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:51:56.590Z"
-    },
-    {
-      "millis": 14634048,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:52:06.583Z"
-    },
-    {
-      "millis": 14644067,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:52:16.603Z"
-    },
-    {
-      "millis": 14654063,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:52:26.597Z"
-    },
-    {
-      "millis": 14664091,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:52:36.626Z"
-    },
-    {
-      "millis": 14674085,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:52:46.619Z"
-    },
-    {
-      "millis": 14684100,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:52:56.635Z"
-    },
-    {
-      "millis": 14694097,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:53:06.631Z"
-    },
-    {
-      "millis": 14704131,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:53:16.667Z"
-    },
-    {
-      "millis": 14714118,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:53:26.653Z"
-    },
-    {
-      "millis": 14724140,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:53:36.675Z"
-    },
-    {
-      "millis": 14734141,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:53:46.676Z"
-    },
-    {
-      "millis": 14744163,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:53:56.698Z"
-    },
-    {
-      "millis": 14754156,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:54:06.690Z"
-    },
-    {
-      "millis": 14764158,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:54:16.692Z"
-    },
-    {
-      "millis": 14774167,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:54:26.701Z"
-    },
-    {
-      "millis": 14784168,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:54:36.702Z"
-    },
-    {
-      "millis": 14794184,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:54:46.718Z"
-    },
-    {
-      "millis": 14804191,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:54:56.725Z"
-    },
-    {
-      "millis": 14814206,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:55:06.740Z"
-    },
-    {
-      "millis": 14824198,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:55:16.732Z"
-    },
-    {
-      "millis": 14834220,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:55:26.753Z"
-    },
-    {
-      "millis": 14844210,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:55:36.744Z"
-    },
-    {
-      "millis": 14854245,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:55:46.778Z"
-    },
-    {
-      "millis": 14864237,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:55:56.770Z"
-    },
-    {
-      "millis": 14874260,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:56:06.793Z"
-    },
-    {
-      "millis": 14884257,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:56:16.791Z"
-    },
-    {
-      "millis": 14894258,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:56:26.809Z"
-    },
-    {
-      "millis": 14904264,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:56:36.798Z"
-    },
-    {
-      "millis": 14914264,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:56:46.797Z"
-    },
-    {
-      "millis": 14924287,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:56:56.820Z"
-    },
-    {
-      "millis": 14934282,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:57:06.815Z"
-    },
-    {
-      "millis": 14944302,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:57:16.834Z"
-    },
-    {
-      "millis": 14954298,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:57:26.831Z"
-    },
-    {
-      "millis": 14964327,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:57:36.860Z"
-    },
-    {
-      "millis": 14974310,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:57:46.843Z"
-    },
-    {
-      "millis": 14984322,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:57:56.855Z"
-    },
-    {
-      "millis": 14994337,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:58:06.871Z"
-    },
-    {
-      "millis": 15004333,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:58:16.866Z"
-    },
-    {
-      "millis": 15014347,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:58:26.880Z"
-    },
-    {
-      "millis": 15024437,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:58:36.971Z"
-    },
-    {
-      "millis": 15034575,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:58:47.108Z"
-    },
-    {
-      "millis": 15044365,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:58:56.898Z"
-    },
-    {
-      "millis": 15054442,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:59:06.975Z"
-    },
-    {
-      "millis": 15064373,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:59:16.906Z"
-    },
-    {
-      "millis": 15074381,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:59:26.932Z"
-    },
-    {
-      "millis": 15084394,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:59:36.927Z"
-    },
-    {
-      "millis": 15094394,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:59:46.930Z"
-    },
-    {
-      "millis": 15104412,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T12:59:56.945Z"
-    },
-    {
-      "millis": 15114451,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:00:06.984Z"
-    },
-    {
-      "millis": 15124483,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:00:17.017Z"
-    },
-    {
-      "millis": 15134515,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:00:27.048Z"
-    },
-    {
-      "millis": 15144452,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:00:36.984Z"
-    },
-    {
-      "millis": 15154445,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:00:46.979Z"
-    },
-    {
-      "millis": 15164462,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:00:56.995Z"
-    },
-    {
-      "millis": 15174454,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:01:06.987Z"
-    },
-    {
-      "millis": 15184458,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:01:16.991Z"
-    },
-    {
-      "millis": 15194471,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:01:27.004Z"
-    },
-    {
-      "millis": 15204471,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:01:37.004Z"
-    },
-    {
-      "millis": 15214496,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:01:47.029Z"
-    },
-    {
-      "millis": 15224530,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:01:57.062Z"
-    },
-    {
-      "millis": 15234563,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:02:07.096Z"
-    },
-    {
-      "millis": 15244496,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:02:17.028Z"
-    },
-    {
-      "millis": 15254533,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:02:27.066Z"
-    },
-    {
-      "millis": 15264570,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:02:37.103Z"
-    },
-    {
-      "millis": 15274605,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:02:47.138Z"
-    },
-    {
-      "millis": 15284535,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:02:57.078Z"
-    },
-    {
-      "millis": 15294544,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:03:07.094Z"
-    },
-    {
-      "millis": 15304552,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:03:17.085Z"
-    },
-    {
-      "millis": 15314554,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:03:27.085Z"
-    },
-    {
-      "millis": 15324678,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:03:37.210Z"
-    },
-    {
-      "millis": 15334611,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:03:47.142Z"
-    },
-    {
-      "millis": 15344646,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:03:57.178Z"
-    },
-    {
-      "millis": 15354578,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:04:07.110Z"
-    },
-    {
-      "millis": 15364571,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:04:17.103Z"
-    },
-    {
-      "millis": 15374576,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:04:27.117Z"
-    },
-    {
-      "millis": 15384582,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:04:37.114Z"
-    },
-    {
-      "millis": 15394591,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:04:47.140Z"
-    },
-    {
-      "millis": 15404598,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:04:57.131Z"
-    },
-    {
-      "millis": 15414688,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:05:07.220Z"
-    },
-    {
-      "millis": 15424619,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:05:17.153Z"
-    },
-    {
-      "millis": 15434657,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:05:27.190Z"
-    },
-    {
-      "millis": 15444622,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:05:37.159Z"
-    },
-    {
-      "millis": 15454726,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:05:47.259Z"
-    },
-    {
-      "millis": 15464661,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:05:57.193Z"
-    },
-    {
-      "millis": 15474694,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:06:07.225Z"
-    },
-    {
-      "millis": 15484732,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:06:17.263Z"
-    },
-    {
-      "millis": 15494766,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:06:27.298Z"
-    },
-    {
-      "millis": 15504699,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:06:37.230Z"
-    },
-    {
-      "millis": 15514736,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:06:47.267Z"
-    },
-    {
-      "millis": 15524680,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:06:57.211Z"
-    },
-    {
-      "millis": 15534806,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:07:07.337Z"
-    },
-    {
-      "millis": 15544739,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:07:17.270Z"
-    },
-    {
-      "millis": 15554776,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:07:27.307Z"
-    },
-    {
-      "millis": 15564709,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:07:37.241Z"
-    },
-    {
-      "millis": 15574739,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:07:47.270Z"
-    },
-    {
-      "millis": 15584734,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:07:57.265Z"
-    },
-    {
-      "millis": 15594814,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:08:07.345Z"
-    },
-    {
-      "millis": 15604747,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:08:17.278Z"
-    },
-    {
-      "millis": 15614779,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:08:27.309Z"
-    },
-    {
-      "millis": 15624762,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:08:37.293Z"
-    },
-    {
-      "millis": 15634778,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:08:47.317Z"
-    },
-    {
-      "millis": 15644783,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:08:57.314Z"
-    },
-    {
-      "millis": 15654786,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:09:07.316Z"
-    },
-    {
-      "millis": 15664798,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:09:17.329Z"
-    },
-    {
-      "millis": 15674805,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:09:27.335Z"
-    },
-    {
-      "millis": 15684821,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:09:37.352Z"
-    },
-    {
-      "millis": 15694876,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:09:47.407Z"
-    },
-    {
-      "millis": 15704821,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:09:57.363Z"
-    },
-    {
-      "millis": 15714853,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:10:07.384Z"
-    },
-    {
-      "millis": 15724866,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:10:17.397Z"
-    },
-    {
-      "millis": 15734898,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:10:27.428Z"
-    },
-    {
-      "millis": 15744852,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:10:37.382Z"
-    },
-    {
-      "millis": 15754968,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:10:47.499Z"
-    },
-    {
-      "millis": 15764871,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:10:57.421Z"
-    },
-    {
-      "millis": 15774883,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:11:07.415Z"
-    },
-    {
-      "millis": 15784898,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:11:17.437Z"
-    },
-    {
-      "millis": 15794906,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:11:27.436Z"
-    },
-    {
-      "millis": 15804912,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:11:37.460Z"
-    },
-    {
-      "millis": 15814977,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:11:47.507Z"
-    },
-    {
-      "millis": 15824934,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:11:57.464Z"
-    },
-    {
-      "millis": 15835046,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:12:07.576Z"
-    },
-    {
-      "millis": 15844952,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:12:17.499Z"
-    },
-    {
-      "millis": 15855015,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:12:27.545Z"
-    },
-    {
-      "millis": 15865050,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:12:37.580Z"
-    },
-    {
-      "millis": 15875085,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:12:47.614Z"
-    },
-    {
-      "millis": 15884973,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:12:57.503Z"
-    },
-    {
-      "millis": 15902223,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:13:14.757Z"
-    },
-    {
-      "millis": 15912261,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:13:24.792Z"
-    },
-    {
-      "millis": 15922190,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:13:34.720Z"
-    },
-    {
-      "millis": 15932225,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:13:44.754Z"
-    },
-    {
-      "millis": 15942261,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:13:54.791Z"
-    },
-    {
-      "millis": 15952297,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:14:04.828Z"
-    },
-    {
-      "millis": 15962183,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:14:14.713Z"
-    },
-    {
-      "millis": 15972204,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:14:24.733Z"
-    },
-    {
-      "millis": 15982201,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:14:34.731Z"
-    },
-    {
-      "millis": 15992337,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:14:44.866Z"
-    },
-    {
-      "millis": 16002268,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:14:54.797Z"
-    },
-    {
-      "millis": 16012304,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:15:04.833Z"
-    },
-    {
-      "millis": 16022339,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:15:14.868Z"
-    },
-    {
-      "millis": 16032272,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:15:24.801Z"
-    },
-    {
-      "millis": 16042250,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:15:34.779Z"
-    },
-    {
-      "millis": 16052261,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:15:44.790Z"
-    },
-    {
-      "millis": 16062272,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:15:54.802Z"
-    },
-    {
-      "millis": 16088001,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:16:20.535Z"
-    },
-    {
-      "millis": 16098014,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:16:30.543Z"
-    },
-    {
-      "millis": 16108009,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:16:40.538Z"
-    },
-    {
-      "millis": 16118083,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:16:50.612Z"
-    },
-    {
-      "millis": 16128021,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:17:00.550Z"
-    },
-    {
-      "millis": 16138022,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:17:10.571Z"
-    },
-    {
-      "millis": 16148088,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:17:20.617Z"
-    },
-    {
-      "millis": 16158123,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:17:30.652Z"
-    },
-    {
-      "millis": 16168157,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:17:40.686Z"
-    },
-    {
-      "millis": 16178091,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:17:50.620Z"
-    },
-    {
-      "millis": 16188129,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:18:00.658Z"
-    },
-    {
-      "millis": 16198073,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:18:10.602Z"
-    },
-    {
-      "millis": 16208093,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:18:20.621Z"
-    },
-    {
-      "millis": 16218129,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:18:30.657Z"
-    },
-    {
-      "millis": 16228164,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:18:40.692Z"
-    },
-    {
-      "millis": 16238104,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:18:50.632Z"
-    },
-    {
-      "millis": 16248133,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:19:00.662Z"
-    },
-    {
-      "millis": 16258116,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:19:10.645Z"
-    },
-    {
-      "millis": 16268204,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:19:20.732Z"
-    },
-    {
-      "millis": 16278239,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:19:30.767Z"
-    },
-    {
-      "millis": 16288172,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:19:40.701Z"
-    },
-    {
-      "millis": 16298207,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:19:50.735Z"
-    },
-    {
-      "millis": 16308244,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:20:00.772Z"
-    },
-    {
-      "millis": 16318278,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:20:10.806Z"
-    },
-    {
-      "millis": 16328232,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:20:20.760Z"
-    },
-    {
-      "millis": 16338247,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:20:30.775Z"
-    },
-    {
-      "millis": 16348281,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:20:40.809Z"
-    },
-    {
-      "millis": 16358317,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:20:50.845Z"
-    },
-    {
-      "millis": 16368249,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:21:00.777Z"
-    },
-    {
-      "millis": 16378203,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:21:10.731Z"
-    },
-    {
-      "millis": 16388320,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:21:20.848Z"
-    },
-    {
-      "millis": 16398253,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:21:30.780Z"
-    },
-    {
-      "millis": 16408288,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:21:40.816Z"
-    },
-    {
-      "millis": 16418324,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:21:50.852Z"
-    },
-    {
-      "millis": 16428359,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:22:00.891Z"
-    },
-    {
-      "millis": 16438293,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:22:10.821Z"
-    },
-    {
-      "millis": 16448268,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:22:20.795Z"
-    },
-    {
-      "millis": 16458263,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:22:30.790Z"
-    },
-    {
-      "millis": 16468295,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:22:40.822Z"
-    },
-    {
-      "millis": 16478330,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:22:50.858Z"
-    },
-    {
-      "millis": 16488366,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:23:00.893Z"
-    },
-    {
-      "millis": 16498402,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:23:10.929Z"
-    },
-    {
-      "millis": 16508438,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:23:20.966Z"
-    },
-    {
-      "millis": 16518370,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:23:30.897Z"
-    },
-    {
-      "millis": 16528405,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:23:40.931Z"
-    },
-    {
-      "millis": 16538337,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:23:50.863Z"
-    },
-    {
-      "millis": 16548375,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:24:00.903Z"
-    },
-    {
-      "millis": 16558410,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:24:10.936Z"
-    },
-    {
-      "millis": 16568446,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:24:20.971Z"
-    },
-    {
-      "millis": 16578479,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:24:31.005Z"
-    },
-    {
-      "millis": 16588419,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:24:40.945Z"
-    },
-    {
-      "millis": 16598401,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:24:50.927Z"
-    },
-    {
-      "millis": 16608483,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:25:01.010Z"
-    },
-    {
-      "millis": 16618519,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:25:11.045Z"
-    },
-    {
-      "millis": 16628453,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:25:20.979Z"
-    },
-    {
-      "millis": 16638487,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:25:31.013Z"
-    },
-    {
-      "millis": 16648522,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:25:41.049Z"
-    },
-    {
-      "millis": 16658455,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:25:50.981Z"
-    },
-    {
-      "millis": 16668493,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:26:01.019Z"
-    },
-    {
-      "millis": 16678526,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:26:11.052Z"
-    },
-    {
-      "millis": 16688460,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:26:20.986Z"
-    },
-    {
-      "millis": 16698503,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:26:31.028Z"
-    },
-    {
-      "millis": 16708476,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:26:41.002Z"
-    },
-    {
-      "millis": 16718478,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:26:51.003Z"
-    },
-    {
-      "millis": 16728600,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:27:01.125Z"
-    },
-    {
-      "millis": 16738533,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:27:11.060Z"
-    },
-    {
-      "millis": 16748515,
-      "temperature": 17.4,
+      "millis": 27265302,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:27:21.041Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:48:18.516Z"
     },
     {
-      "millis": 16758526,
-      "temperature": 17.4,
+      "millis": 27275336,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:27:31.054Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:48:28.543Z"
     },
     {
-      "millis": 16768639,
-      "temperature": 17.4,
+      "millis": 27285268,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:27:41.164Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:48:38.485Z"
     },
     {
-      "millis": 16778674,
-      "temperature": 17.4,
+      "millis": 27295303,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:27:51.199Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:48:48.519Z"
     },
     {
-      "millis": 16788614,
-      "temperature": 17.4,
+      "millis": 27305339,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:28:01.140Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:48:58.556Z"
     },
     {
-      "millis": 16798642,
-      "temperature": 17.4,
+      "millis": 27315374,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:28:11.168Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:49:08.603Z"
     },
     {
-      "millis": 16808679,
-      "temperature": 17.4,
+      "millis": 27325272,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:28:21.205Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:49:18.484Z"
     },
     {
-      "millis": 16818714,
-      "temperature": 17.4,
+      "millis": 27335281,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:28:31.241Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:49:28.491Z"
     },
     {
-      "millis": 16828604,
-      "temperature": 17.4,
+      "millis": 27345378,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:28:41.130Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:49:38.599Z"
     },
     {
-      "millis": 16838683,
-      "temperature": 17.4,
+      "millis": 27355341,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:28:51.208Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:49:48.552Z"
     },
     {
-      "millis": 16848716,
-      "temperature": 17.4,
+      "millis": 27365346,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:29:01.244Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:49:58.567Z"
     },
     {
-      "millis": 16858651,
-      "temperature": 17.4,
+      "millis": 27375382,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:29:11.176Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:50:08.605Z"
     },
     {
-      "millis": 16868685,
-      "temperature": 17.4,
+      "millis": 27385336,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:29:21.210Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:50:18.548Z"
     },
     {
-      "millis": 16878632,
-      "temperature": 17.4,
+      "millis": 27395329,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:29:31.175Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:50:28.550Z"
     },
     {
-      "millis": 16888756,
-      "temperature": 17.4,
+      "millis": 27405345,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:29:41.280Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:50:38.556Z"
     },
     {
-      "millis": 16898689,
-      "temperature": 17.4,
+      "millis": 27415420,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:29:51.214Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:50:48.643Z"
     },
     {
-      "millis": 16908724,
-      "temperature": 17.4,
+      "millis": 27425351,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:30:01.249Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:50:58.575Z"
     },
     {
-      "millis": 16918759,
-      "temperature": 17.4,
+      "millis": 27435388,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:30:11.284Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:51:08.606Z"
     },
     {
-      "millis": 16928794,
-      "temperature": 17.4,
+      "millis": 27445359,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:30:21.319Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:51:18.566Z"
     },
     {
-      "millis": 16938729,
-      "temperature": 17.4,
+      "millis": 27455487,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:30:31.254Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:51:28.693Z"
     },
     {
-      "millis": 16948762,
-      "temperature": 17.4,
+      "millis": 27465510,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:30:41.286Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:51:38.717Z"
     },
     {
-      "millis": 16958799,
-      "temperature": 17.4,
+      "millis": 27475391,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:30:51.324Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:51:48.597Z"
     },
     {
-      "millis": 16968747,
-      "temperature": 17.4,
+      "millis": 27485403,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:31:01.273Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:51:58.608Z"
     },
     {
-      "millis": 16978765,
-      "temperature": 17.4,
+      "millis": 27495416,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:31:11.289Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:52:08.618Z"
     },
     {
-      "millis": 16988804,
-      "temperature": 17.4,
+      "millis": 27505534,
+      "temperature": 15.7,
       "humidity": 64,
-      "dewPoint": 10.2,
-      "serverTime": "2025-12-07T13:31:21.329Z"
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:52:18.747Z"
     },
     {
-      "millis": 17221840,
-      "temperature": 17.4,
+      "millis": 27515467,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:52:28.680Z"
+    },
+    {
+      "millis": 27525502,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:52:38.714Z"
+    },
+    {
+      "millis": 27535537,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:52:48.751Z"
+    },
+    {
+      "millis": 27545572,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:52:58.786Z"
+    },
+    {
+      "millis": 27555505,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:53:08.727Z"
+    },
+    {
+      "millis": 27565541,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:53:18.763Z"
+    },
+    {
+      "millis": 27575502,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:53:28.713Z"
+    },
+    {
+      "millis": 27585489,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:53:38.709Z"
+    },
+    {
+      "millis": 27595503,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:53:48.714Z"
+    },
+    {
+      "millis": 27605579,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:53:58.802Z"
+    },
+    {
+      "millis": 27615615,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:54:08.838Z"
+    },
+    {
+      "millis": 27625519,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:54:18.730Z"
+    },
+    {
+      "millis": 27635583,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:54:28.805Z"
+    },
+    {
+      "millis": 27645618,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:54:38.841Z"
+    },
+    {
+      "millis": 27655654,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:54:48.880Z"
+    },
+    {
+      "millis": 27665586,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:54:58.809Z"
+    },
+    {
+      "millis": 27675572,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:55:08.783Z"
+    },
+    {
+      "millis": 27685658,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:55:18.878Z"
+    },
+    {
+      "millis": 27695693,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:55:28.921Z"
+    },
+    {
+      "millis": 27705626,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:55:38.846Z"
+    },
+    {
+      "millis": 27715661,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:55:48.882Z"
+    },
+    {
+      "millis": 27725696,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:55:58.917Z"
+    },
+    {
+      "millis": 27735732,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:56:08.953Z"
+    },
+    {
+      "millis": 27745665,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:56:18.887Z"
+    },
+    {
+      "millis": 27755700,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:56:28.922Z"
+    },
+    {
+      "millis": 27765664,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:56:38.875Z"
+    },
+    {
+      "millis": 27775771,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:56:48.984Z"
+    },
+    {
+      "millis": 27785807,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:56:59.028Z"
+    },
+    {
+      "millis": 27795739,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:57:08.961Z"
+    },
+    {
+      "millis": 27805774,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:57:18.997Z"
+    },
+    {
+      "millis": 27815724,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:57:28.935Z"
+    },
+    {
+      "millis": 27825714,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:57:38.924Z"
+    },
+    {
+      "millis": 27835777,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:57:49.001Z"
+    },
+    {
+      "millis": 27845731,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:57:58.942Z"
+    },
+    {
+      "millis": 27855783,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:58:08.993Z"
+    },
+    {
+      "millis": 27865884,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:58:19.106Z"
+    },
+    {
+      "millis": 27875818,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:58:29.036Z"
+    },
+    {
+      "millis": 27885853,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:58:39.074Z"
+    },
+    {
+      "millis": 27895888,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:58:49.109Z"
+    },
+    {
+      "millis": 27905819,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:58:59.042Z"
+    },
+    {
+      "millis": 27915822,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:59:09.033Z"
+    },
+    {
+      "millis": 27925891,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:59:19.115Z"
+    },
+    {
+      "millis": 27935926,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:59:29.148Z"
+    },
+    {
+      "millis": 27945859,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:59:39.081Z"
+    },
+    {
+      "millis": 27955910,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:59:49.120Z"
+    },
+    {
+      "millis": 27965848,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T03:59:59.058Z"
+    },
+    {
+      "millis": 27976886,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T04:00:10.109Z"
+    },
+    {
+      "millis": 27985920,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T04:00:19.124Z"
+    },
+    {
+      "millis": 30674345,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:45:07.587Z"
+    },
+    {
+      "millis": 30683456,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:45:16.681Z"
+    },
+    {
+      "millis": 30693390,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:45:26.628Z"
+    },
+    {
+      "millis": 30703424,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:45:36.648Z"
+    },
+    {
+      "millis": 30713460,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:45:46.684Z"
+    },
+    {
+      "millis": 30723391,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:45:56.616Z"
+    },
+    {
+      "millis": 30733427,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:46:06.652Z"
+    },
+    {
+      "millis": 30743463,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:46:16.688Z"
+    },
+    {
+      "millis": 30753394,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:46:26.618Z"
+    },
+    {
+      "millis": 30763430,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:46:36.654Z"
+    },
+    {
+      "millis": 30773467,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:46:46.692Z"
+    },
+    {
+      "millis": 30783526,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:46:56.744Z"
+    },
+    {
+      "millis": 30793537,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:47:06.755Z"
+    },
+    {
+      "millis": 30803429,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:47:16.647Z"
+    },
+    {
+      "millis": 30813505,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:47:26.723Z"
+    },
+    {
+      "millis": 30823541,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:47:36.758Z"
+    },
+    {
+      "millis": 30833467,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:47:46.684Z"
+    },
+    {
+      "millis": 30843471,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:47:56.689Z"
+    },
+    {
+      "millis": 30853544,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:48:06.768Z"
+    },
+    {
+      "millis": 30863504,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:48:16.728Z"
+    },
+    {
+      "millis": 30873489,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:48:26.713Z"
+    },
+    {
+      "millis": 30883504,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:48:36.729Z"
+    },
+    {
+      "millis": 30893506,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:48:46.731Z"
+    },
+    {
+      "millis": 30903519,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:48:56.763Z"
+    },
+    {
+      "millis": 30913531,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:49:06.765Z"
+    },
+    {
+      "millis": 30923550,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:49:16.775Z"
+    },
+    {
+      "millis": 30933556,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:49:26.780Z"
+    },
+    {
+      "millis": 30943658,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:49:36.883Z"
+    },
+    {
+      "millis": 30953693,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:49:46.918Z"
+    },
+    {
+      "millis": 30963626,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:49:56.873Z"
+    },
+    {
+      "millis": 30973662,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:50:06.886Z"
+    },
+    {
+      "millis": 30983695,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:50:16.921Z"
+    },
+    {
+      "millis": 30993630,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:50:26.854Z"
+    },
+    {
+      "millis": 31003666,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:50:36.903Z"
+    },
+    {
+      "millis": 31013702,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:50:46.942Z"
+    },
+    {
+      "millis": 31023740,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:50:56.978Z"
+    },
+    {
+      "millis": 31033770,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:51:06.995Z"
+    },
+    {
+      "millis": 31043662,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:51:16.886Z"
+    },
+    {
+      "millis": 31053742,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:51:26.978Z"
+    },
+    {
+      "millis": 31063774,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:51:36.999Z"
+    },
+    {
+      "millis": 31073688,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:51:46.919Z"
+    },
+    {
+      "millis": 31083701,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:51:56.925Z"
+    },
+    {
+      "millis": 31093707,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:52:06.932Z"
+    },
+    {
+      "millis": 31103811,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:52:17.036Z"
+    },
+    {
+      "millis": 31113745,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:52:26.971Z"
+    },
+    {
+      "millis": 31123781,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:52:37.006Z"
+    },
+    {
+      "millis": 31133742,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:52:46.966Z"
+    },
+    {
+      "millis": 31143851,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:52:57.076Z"
+    },
+    {
+      "millis": 31153785,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:53:06.996Z"
+    },
+    {
+      "millis": 31163820,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:53:17.030Z"
+    },
+    {
+      "millis": 31173855,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:53:27.065Z"
+    },
+    {
+      "millis": 31183890,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:53:37.101Z"
+    },
+    {
+      "millis": 31193926,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:53:47.137Z"
+    },
+    {
+      "millis": 31203833,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:53:57.044Z"
+    },
+    {
+      "millis": 31213894,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:54:07.118Z"
+    },
+    {
+      "millis": 31223930,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:54:17.153Z"
+    },
+    {
+      "millis": 31233965,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:54:27.189Z"
+    },
+    {
+      "millis": 31243863,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:54:37.088Z"
+    },
+    {
+      "millis": 31253939,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:54:47.180Z"
+    },
+    {
+      "millis": 31264017,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:54:57.241Z"
+    },
+    {
+      "millis": 31273898,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:55:07.115Z"
+    },
+    {
+      "millis": 31283937,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:55:17.153Z"
+    },
+    {
+      "millis": 31293920,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:55:27.136Z"
+    },
+    {
+      "millis": 31304006,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:55:37.222Z"
+    },
+    {
+      "millis": 31314042,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:55:47.258Z"
+    },
+    {
+      "millis": 31323936,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:55:57.151Z"
+    },
+    {
+      "millis": 31333944,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:56:07.167Z"
+    },
+    {
+      "millis": 31343950,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:56:17.192Z"
+    },
+    {
+      "millis": 31353979,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:56:27.202Z"
+    },
+    {
+      "millis": 31364014,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:56:37.238Z"
+    },
+    {
+      "millis": 31373977,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:56:47.200Z"
+    },
+    {
+      "millis": 31384019,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:56:57.243Z"
+    },
+    {
+      "millis": 31394019,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:57:07.243Z"
+    },
+    {
+      "millis": 31404054,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:57:17.278Z"
+    },
+    {
+      "millis": 31414088,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:57:27.312Z"
+    },
+    {
+      "millis": 31424130,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:57:37.368Z"
+    },
+    {
+      "millis": 31434056,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:57:47.280Z"
+    },
+    {
+      "millis": 31444093,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:57:57.317Z"
+    },
+    {
+      "millis": 31454129,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:58:07.353Z"
+    },
+    {
+      "millis": 31464165,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:58:17.388Z"
+    },
+    {
+      "millis": 31474096,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:58:27.318Z"
+    },
+    {
+      "millis": 31484137,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:58:37.377Z"
+    },
+    {
+      "millis": 31494169,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:58:47.411Z"
+    },
+    {
+      "millis": 31504068,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:58:57.291Z"
+    },
+    {
+      "millis": 31514114,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:59:07.349Z"
+    },
+    {
+      "millis": 31524172,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:59:17.392Z"
+    },
+    {
+      "millis": 31534102,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:59:27.314Z"
+    },
+    {
+      "millis": 31544140,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:59:37.368Z"
+    },
+    {
+      "millis": 31554176,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:59:47.404Z"
+    },
+    {
+      "millis": 31564214,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T04:59:57.451Z"
+    },
+    {
+      "millis": 31574144,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:00:07.372Z"
+    },
+    {
+      "millis": 31584118,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:00:17.341Z"
+    },
+    {
+      "millis": 31594214,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:00:27.437Z"
+    },
+    {
+      "millis": 31604148,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:00:37.390Z"
+    },
+    {
+      "millis": 31614183,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:00:47.426Z"
+    },
+    {
+      "millis": 31624218,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:00:57.457Z"
+    },
+    {
+      "millis": 31634176,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:01:07.385Z"
+    },
+    {
+      "millis": 31644165,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:01:17.386Z"
+    },
+    {
+      "millis": 31654222,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:01:27.431Z"
+    },
+    {
+      "millis": 31664194,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:01:37.403Z"
+    },
+    {
+      "millis": 31674219,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:01:47.428Z"
+    },
+    {
+      "millis": 31684225,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:01:57.434Z"
+    },
+    {
+      "millis": 31694222,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:02:07.445Z"
+    },
+    {
+      "millis": 31704230,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:02:17.453Z"
+    },
+    {
+      "millis": 31714329,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:02:27.552Z"
+    },
+    {
+      "millis": 31724264,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:02:37.486Z"
+    },
+    {
+      "millis": 31734266,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:02:47.489Z"
+    },
+    {
+      "millis": 31744335,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:02:57.558Z"
+    },
+    {
+      "millis": 31754371,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:03:07.611Z"
+    },
+    {
+      "millis": 31764405,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:03:17.627Z"
+    },
+    {
+      "millis": 31774292,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:03:27.513Z"
+    },
+    {
+      "millis": 31784303,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:03:37.524Z"
+    },
+    {
+      "millis": 31794409,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:03:47.631Z"
+    },
+    {
+      "millis": 31804341,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:03:57.563Z"
+    },
+    {
+      "millis": 31814379,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:04:07.614Z"
+    },
+    {
+      "millis": 31824341,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:04:17.563Z"
+    },
+    {
+      "millis": 31834346,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:04:27.585Z"
+    },
+    {
+      "millis": 31844355,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:04:37.577Z"
+    },
+    {
+      "millis": 31854414,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:04:47.637Z"
+    },
+    {
+      "millis": 31864374,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:04:57.611Z"
+    },
+    {
+      "millis": 31874385,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:05:07.618Z"
+    },
+    {
+      "millis": 31884419,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:05:17.634Z"
+    },
+    {
+      "millis": 31894397,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:05:27.612Z"
+    },
+    {
+      "millis": 31904417,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:05:37.633Z"
+    },
+    {
+      "millis": 31914422,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:05:47.637Z"
+    },
+    {
+      "millis": 31924420,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:05:57.635Z"
+    },
+    {
+      "millis": 31934423,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:06:07.645Z"
+    },
+    {
+      "millis": 31944528,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:06:17.749Z"
+    },
+    {
+      "millis": 31954436,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:06:27.658Z"
+    },
+    {
+      "millis": 31964496,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:06:37.717Z"
+    },
+    {
+      "millis": 31974457,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:06:47.678Z"
+    },
+    {
+      "millis": 31984566,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:06:57.788Z"
+    },
+    {
+      "millis": 31994476,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:07:07.683Z"
+    },
+    {
+      "millis": 32004537,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:07:17.744Z"
+    },
+    {
+      "millis": 32014498,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:07:27.705Z"
+    },
+    {
+      "millis": 32024606,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:07:37.814Z"
+    },
+    {
+      "millis": 32034538,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:07:47.746Z"
+    },
+    {
+      "millis": 32044573,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:07:57.781Z"
+    },
+    {
+      "millis": 32054609,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:08:07.831Z"
+    },
+    {
+      "millis": 32064518,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:08:17.740Z"
+    },
+    {
+      "millis": 32074576,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:08:27.798Z"
+    },
+    {
+      "millis": 32084612,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:08:37.833Z"
+    },
+    {
+      "millis": 32094571,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:08:47.792Z"
+    },
+    {
+      "millis": 32104683,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:08:57.906Z"
+    },
+    {
+      "millis": 32114618,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:09:07.855Z"
+    },
+    {
+      "millis": 32124652,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:09:17.871Z"
+    },
+    {
+      "millis": 32134688,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:09:27.906Z"
+    },
+    {
+      "millis": 32144723,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:09:37.941Z"
+    },
+    {
+      "millis": 32154608,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:09:47.826Z"
+    },
+    {
+      "millis": 32164622,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:09:57.841Z"
+    },
+    {
+      "millis": 32174630,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:10:07.862Z"
+    },
+    {
+      "millis": 32184660,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:10:17.882Z"
+    },
+    {
+      "millis": 32194696,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:10:27.917Z"
+    },
+    {
+      "millis": 32204731,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:10:37.953Z"
+    },
+    {
+      "millis": 32214685,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:10:47.907Z"
+    },
+    {
+      "millis": 32224705,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:10:57.945Z"
+    },
+    {
+      "millis": 32234733,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:11:07.950Z"
+    },
+    {
+      "millis": 32244667,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:11:17.884Z"
+    },
+    {
+      "millis": 32254679,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:11:27.895Z"
+    },
+    {
+      "millis": 32264737,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:11:37.955Z"
+    },
+    {
+      "millis": 32274676,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:11:47.900Z"
+    },
+    {
+      "millis": 32284707,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:11:57.924Z"
+    },
+    {
+      "millis": 32294741,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:12:07.964Z"
+    },
+    {
+      "millis": 32304713,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:12:17.935Z"
+    },
+    {
+      "millis": 32314735,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:12:27.957Z"
+    },
+    {
+      "millis": 32324749,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:12:37.979Z"
+    },
+    {
+      "millis": 32334746,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:12:47.968Z"
+    },
+    {
+      "millis": 32344755,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:12:57.977Z"
+    },
+    {
+      "millis": 32354776,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:13:07.992Z"
+    },
+    {
+      "millis": 32364886,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:13:18.102Z"
+    },
+    {
+      "millis": 32374779,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:13:27.995Z"
+    },
+    {
+      "millis": 32384879,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:13:38.094Z"
+    },
+    {
+      "millis": 32394813,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:13:48.029Z"
+    },
+    {
+      "millis": 32404794,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:13:58.009Z"
+    },
+    {
+      "millis": 32414858,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:14:08.078Z"
+    },
+    {
+      "millis": 32424892,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:14:18.113Z"
+    },
+    {
+      "millis": 32434926,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:14:28.147Z"
+    },
+    {
+      "millis": 32444831,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:14:38.052Z"
+    },
+    {
+      "millis": 32454846,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:14:48.067Z"
+    },
+    {
+      "millis": 32464858,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:14:58.078Z"
+    },
+    {
+      "millis": 32474968,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:15:08.177Z"
+    },
+    {
+      "millis": 32484861,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T05:15:18.070Z"
+    },
+    {
+      "millis": 38747559,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T06:59:41.073Z"
+    },
+    {
+      "millis": 38757014,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T06:59:50.510Z"
+    },
+    {
+      "millis": 38767010,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:00:00.505Z"
+    },
+    {
+      "millis": 38777009,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:00:10.505Z"
+    },
+    {
+      "millis": 38787018,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:00:20.513Z"
+    },
+    {
+      "millis": 38797032,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:00:30.522Z"
+    },
+    {
+      "millis": 38807034,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:00:40.531Z"
+    },
+    {
+      "millis": 38817048,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:00:50.539Z"
+    },
+    {
+      "millis": 38827057,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:01:00.550Z"
+    },
+    {
+      "millis": 38837063,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:01:10.553Z"
+    },
+    {
+      "millis": 38847068,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:01:20.557Z"
+    },
+    {
+      "millis": 38857078,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:01:30.566Z"
+    },
+    {
+      "millis": 38867160,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:01:40.648Z"
+    },
+    {
+      "millis": 38877100,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:01:50.589Z"
+    },
+    {
+      "millis": 38887112,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:02:00.607Z"
+    },
+    {
+      "millis": 38897164,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:02:10.655Z"
+    },
+    {
+      "millis": 38907135,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:02:20.624Z"
+    },
+    {
+      "millis": 38917145,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:02:30.633Z"
+    },
+    {
+      "millis": 38927183,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:02:40.687Z"
+    },
+    {
+      "millis": 38937150,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:02:50.639Z"
+    },
+    {
+      "millis": 38947173,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:03:00.662Z"
+    },
+    {
+      "millis": 38957172,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:03:10.662Z"
+    },
+    {
+      "millis": 38967173,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:03:20.662Z"
+    },
+    {
+      "millis": 38977192,
+      "temperature": 15.2,
+      "humidity": 64,
+      "dewPoint": 8,
+      "serverTime": "2025-12-11T07:03:30.688Z"
+    },
+    {
+      "millis": 38987213,
+      "temperature": 15.2,
+      "humidity": 65,
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:03:40.708Z"
+    },
+    {
+      "millis": 38997207,
+      "temperature": 15.2,
+      "humidity": 65,
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:03:50.704Z"
+    },
+    {
+      "millis": 39007206,
+      "temperature": 15.2,
+      "humidity": 65,
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:04:00.701Z"
+    },
+    {
+      "millis": 39017216,
+      "temperature": 15.2,
+      "humidity": 65,
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:04:10.712Z"
+    },
+    {
+      "millis": 39027216,
+      "temperature": 15.2,
+      "humidity": 65,
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:04:20.712Z"
+    },
+    {
+      "millis": 39037225,
+      "temperature": 15.2,
+      "humidity": 65,
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:04:30.721Z"
+    },
+    {
+      "millis": 39047226,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:35:14.385Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:04:40.722Z"
     },
     {
-      "millis": 17231828,
-      "temperature": 17.4,
+      "millis": 39057229,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:35:24.352Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:04:50.725Z"
     },
     {
-      "millis": 17241837,
-      "temperature": 17.4,
+      "millis": 39067249,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:35:34.362Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:05:00.745Z"
     },
     {
-      "millis": 17251842,
-      "temperature": 17.4,
+      "millis": 39077244,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:35:44.384Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:05:10.740Z"
     },
     {
-      "millis": 17261852,
-      "temperature": 17.4,
+      "millis": 39087259,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:35:54.376Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:05:20.755Z"
     },
     {
-      "millis": 17271856,
-      "temperature": 17.4,
+      "millis": 39097258,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:36:04.381Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:05:30.751Z"
     },
     {
-      "millis": 17281978,
-      "temperature": 17.4,
+      "millis": 39107265,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:36:14.502Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:05:40.757Z"
     },
     {
-      "millis": 17291875,
-      "temperature": 17.4,
+      "millis": 39117274,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:36:24.400Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:05:50.767Z"
     },
     {
-      "millis": 17301945,
-      "temperature": 17.4,
+      "millis": 39127298,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:36:34.470Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:06:00.790Z"
     },
     {
-      "millis": 17311980,
-      "temperature": 17.4,
+      "millis": 39137294,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:36:44.504Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:06:10.786Z"
     },
     {
-      "millis": 17322016,
-      "temperature": 17.4,
+      "millis": 39147308,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:36:54.540Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:06:20.799Z"
     },
     {
-      "millis": 17331915,
-      "temperature": 17.4,
+      "millis": 39157320,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:37:04.439Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:06:30.817Z"
     },
     {
-      "millis": 17341984,
-      "temperature": 17.4,
+      "millis": 39167339,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:37:14.508Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:06:40.835Z"
     },
     {
-      "millis": 17351923,
-      "temperature": 17.4,
+      "millis": 39177348,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:37:24.446Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:06:50.859Z"
     },
     {
-      "millis": 17361952,
-      "temperature": 17.4,
+      "millis": 39187367,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:37:34.476Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:07:00.863Z"
     },
     {
-      "millis": 17371936,
-      "temperature": 17.4,
+      "millis": 39197362,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:37:44.460Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:07:10.862Z"
     },
     {
-      "millis": 17382023,
-      "temperature": 17.4,
+      "millis": 39207376,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:37:54.546Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:07:20.872Z"
     },
     {
-      "millis": 17392058,
-      "temperature": 17.4,
+      "millis": 39217377,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:38:04.582Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:07:30.873Z"
     },
     {
-      "millis": 17401991,
-      "temperature": 17.4,
+      "millis": 39227378,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:38:14.515Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:07:40.874Z"
     },
     {
-      "millis": 17563482,
-      "temperature": 17.4,
+      "millis": 39237386,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:40:56.009Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:07:50.881Z"
     },
     {
-      "millis": 17573444,
-      "temperature": 17.4,
+      "millis": 39247410,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:41:05.973Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:08:00.906Z"
     },
     {
-      "millis": 17583550,
-      "temperature": 17.4,
+      "millis": 39257410,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:41:16.073Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:08:10.907Z"
     },
     {
-      "millis": 17593479,
-      "temperature": 17.4,
+      "millis": 39267418,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:41:26.002Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:08:20.914Z"
     },
     {
-      "millis": 17603469,
-      "temperature": 17.4,
+      "millis": 39277486,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:41:35.992Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:08:30.981Z"
     },
     {
-      "millis": 17613471,
-      "temperature": 17.4,
+      "millis": 39287521,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:41:45.994Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:08:41.016Z"
     },
     {
-      "millis": 18617624,
-      "temperature": 17.4,
+      "millis": 39297556,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:58:30.147Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:08:51.052Z"
     },
     {
-      "millis": 18627635,
-      "temperature": 17.4,
+      "millis": 39307488,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:58:40.153Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:09:00.983Z"
     },
     {
-      "millis": 18637626,
-      "temperature": 17.4,
+      "millis": 39317523,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:58:50.145Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:09:11.018Z"
     },
     {
-      "millis": 18647630,
-      "temperature": 17.4,
+      "millis": 39327491,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:59:00.149Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:09:20.986Z"
     },
     {
-      "millis": 18657639,
-      "temperature": 17.4,
+      "millis": 39337485,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:59:10.157Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:09:30.980Z"
     },
     {
-      "millis": 18667673,
-      "temperature": 17.4,
+      "millis": 39347478,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:59:20.190Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:09:40.965Z"
     },
     {
-      "millis": 18677663,
-      "temperature": 17.4,
+      "millis": 39357495,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:59:30.181Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:09:50.982Z"
     },
     {
-      "millis": 18687659,
-      "temperature": 17.4,
+      "millis": 39367495,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:59:40.178Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:10:00.982Z"
     },
     {
-      "millis": 18697776,
-      "temperature": 17.4,
+      "millis": 39377498,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T13:59:50.295Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:10:10.985Z"
     },
     {
-      "millis": 18707670,
-      "temperature": 17.4,
+      "millis": 39387501,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:00:00.188Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:10:20.989Z"
     },
     {
-      "millis": 18717673,
-      "temperature": 17.4,
+      "millis": 39397532,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:00:10.190Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:10:31.019Z"
     },
     {
-      "millis": 18727680,
-      "temperature": 17.4,
+      "millis": 39407533,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:00:20.197Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:10:41.020Z"
     },
     {
-      "millis": 18737708,
-      "temperature": 17.4,
+      "millis": 39417530,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:00:30.226Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:10:51.018Z"
     },
     {
-      "millis": 18747699,
-      "temperature": 17.4,
+      "millis": 39427540,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:00:40.217Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:11:01.027Z"
     },
     {
-      "millis": 18757784,
-      "temperature": 17.4,
+      "millis": 39437548,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:00:50.302Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:11:11.035Z"
     },
     {
-      "millis": 18767835,
-      "temperature": 17.4,
+      "millis": 39447570,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:01:00.354Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:11:21.057Z"
     },
     {
-      "millis": 18777747,
-      "temperature": 17.4,
+      "millis": 39457566,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:01:10.265Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:11:31.059Z"
     },
     {
-      "millis": 18787789,
-      "temperature": 17.4,
+      "millis": 39467582,
+      "temperature": 15.2,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:01:20.307Z"
+      "dewPoint": 8.2,
+      "serverTime": "2025-12-11T07:11:41.076Z"
     },
     {
-      "millis": 18797823,
-      "temperature": 17.4,
+      "millis": 39477592,
+      "temperature": 15.6,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:01:30.340Z"
+      "dewPoint": 8.6,
+      "serverTime": "2025-12-11T07:11:51.100Z"
     },
     {
-      "millis": 18807863,
-      "temperature": 17.4,
+      "millis": 39487609,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:01:40.381Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:12:01.102Z"
     },
     {
-      "millis": 18817897,
-      "temperature": 17.4,
+      "millis": 39497609,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:01:50.415Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:12:11.101Z"
     },
     {
-      "millis": 18827828,
-      "temperature": 17.4,
+      "millis": 39507616,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:02:00.348Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:12:21.108Z"
     },
     {
-      "millis": 18837859,
-      "temperature": 17.4,
+      "millis": 39517614,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:02:10.378Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:12:31.110Z"
     },
     {
-      "millis": 18847897,
-      "temperature": 17.4,
+      "millis": 39527611,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:02:20.414Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:12:41.107Z"
     },
     {
-      "millis": 18857830,
-      "temperature": 17.4,
+      "millis": 39537621,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:02:30.347Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:12:51.117Z"
     },
     {
-      "millis": 18867812,
-      "temperature": 17.4,
+      "millis": 39547620,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:02:40.330Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:13:01.116Z"
     },
     {
-      "millis": 18877808,
-      "temperature": 17.4,
+      "millis": 39557623,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:02:50.325Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:13:11.118Z"
     },
     {
-      "millis": 18887936,
-      "temperature": 17.4,
+      "millis": 39567635,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:03:00.453Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:13:21.131Z"
     },
     {
-      "millis": 18897822,
-      "temperature": 17.4,
+      "millis": 39577661,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:03:10.340Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:13:31.156Z"
     },
     {
-      "millis": 18907902,
-      "temperature": 17.4,
+      "millis": 39587658,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:03:20.419Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:13:41.153Z"
     },
     {
-      "millis": 18917940,
-      "temperature": 17.4,
+      "millis": 39597668,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:03:30.457Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:13:51.163Z"
     },
     {
-      "millis": 18927975,
-      "temperature": 17.4,
+      "millis": 39607669,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:03:40.492Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:14:01.164Z"
     },
     {
-      "millis": 18937908,
-      "temperature": 17.4,
+      "millis": 39617694,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:03:50.425Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:14:11.190Z"
     },
     {
-      "millis": 18947943,
-      "temperature": 17.4,
+      "millis": 39627695,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:04:00.459Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:14:21.190Z"
     },
     {
-      "millis": 18957981,
-      "temperature": 17.4,
+      "millis": 39637699,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:04:10.498Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:14:31.196Z"
     },
     {
-      "millis": 18967881,
-      "temperature": 17.4,
+      "millis": 39647720,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:04:20.417Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:14:41.215Z"
     },
     {
-      "millis": 18977952,
-      "temperature": 17.4,
+      "millis": 39657740,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:04:30.468Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:14:51.235Z"
     },
     {
-      "millis": 18987986,
-      "temperature": 17.4,
+      "millis": 39667736,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:04:40.502Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:15:01.231Z"
     },
     {
-      "millis": 18997920,
-      "temperature": 17.4,
+      "millis": 39677736,
+      "temperature": 15.7,
       "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:04:50.436Z"
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:15:11.233Z"
     },
     {
-      "millis": 19007953,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:05:00.470Z"
+      "millis": 39687751,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:15:21.246Z"
     },
     {
-      "millis": 19017986,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:05:10.503Z"
+      "millis": 39697776,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:15:31.268Z"
     },
     {
-      "millis": 19028021,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:05:20.538Z"
+      "millis": 39707772,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:15:41.264Z"
     },
     {
-      "millis": 19038057,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:05:30.573Z"
+      "millis": 39717782,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:15:51.274Z"
     },
     {
-      "millis": 19048092,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:05:40.608Z"
+      "millis": 39727786,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:16:01.279Z"
     },
     {
-      "millis": 19057991,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:05:50.506Z"
+      "millis": 39737793,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:16:11.298Z"
     },
     {
-      "millis": 19067994,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:06:00.516Z"
+      "millis": 39747793,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:16:21.293Z"
     },
     {
-      "millis": 19077996,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:06:10.512Z"
+      "millis": 39757806,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:16:31.301Z"
     },
     {
-      "millis": 19088130,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:06:20.647Z"
+      "millis": 39767819,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:16:41.315Z"
     },
     {
-      "millis": 19098064,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:06:30.580Z"
+      "millis": 39777823,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:16:51.319Z"
     },
     {
-      "millis": 19108099,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:06:40.615Z"
+      "millis": 39787851,
+      "temperature": 15.7,
+      "humidity": 64,
+      "dewPoint": 8.5,
+      "serverTime": "2025-12-11T07:17:01.346Z"
     },
     {
-      "millis": 19118135,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:06:50.652Z"
+      "millis": 39797834,
+      "temperature": 15.8,
+      "humidity": 64,
+      "dewPoint": 8.6,
+      "serverTime": "2025-12-11T07:17:11.330Z"
     },
     {
-      "millis": 19128067,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:07:00.582Z"
+      "millis": 39807858,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:17:21.353Z"
     },
     {
-      "millis": 19138103,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:07:10.619Z"
+      "millis": 39817857,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:17:31.353Z"
     },
     {
-      "millis": 19148146,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:07:20.662Z"
+      "millis": 39827860,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:17:41.355Z"
     },
     {
-      "millis": 19158173,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:07:30.689Z"
+      "millis": 39837868,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:17:51.364Z"
     },
     {
-      "millis": 19168105,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:07:40.621Z"
+      "millis": 39847871,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:18:01.383Z"
     },
     {
-      "millis": 19178141,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:07:50.657Z"
+      "millis": 39857892,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:18:11.389Z"
     },
     {
-      "millis": 19194526,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:08:07.045Z"
+      "millis": 39867899,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:18:21.394Z"
     },
     {
-      "millis": 19204561,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:08:17.078Z"
+      "millis": 39877915,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:18:31.409Z"
     },
     {
-      "millis": 19214506,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:08:27.021Z"
+      "millis": 39887932,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:18:41.426Z"
     },
     {
-      "millis": 19224527,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:08:37.042Z"
+      "millis": 39897931,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:18:51.424Z"
     },
     {
-      "millis": 19234515,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:08:47.031Z"
+      "millis": 39907924,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:19:01.418Z"
     },
     {
-      "millis": 19244517,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:08:57.032Z"
+      "millis": 39917940,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:19:11.435Z"
     },
     {
-      "millis": 19254534,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:09:07.050Z"
+      "millis": 39927934,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:19:21.428Z"
     },
     {
-      "millis": 19264558,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:09:17.073Z"
+      "millis": 39937941,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:19:31.434Z"
     },
     {
-      "millis": 19274603,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:09:27.119Z"
+      "millis": 39947944,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:19:41.438Z"
     },
     {
-      "millis": 19284637,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:09:37.152Z"
+      "millis": 39957957,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:19:51.464Z"
     },
     {
-      "millis": 19294689,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:09:47.204Z"
+      "millis": 39967969,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:20:01.463Z"
     },
     {
-      "millis": 19304608,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:09:57.124Z"
+      "millis": 39977965,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:20:11.459Z"
     },
     {
-      "millis": 19314643,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:10:07.159Z"
+      "millis": 39987982,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:20:21.475Z"
     },
     {
-      "millis": 19324573,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:10:17.089Z"
+      "millis": 39997985,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:20:31.480Z"
     },
     {
-      "millis": 19334569,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:10:27.084Z"
+      "millis": 40007997,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:20:41.497Z"
     },
     {
-      "millis": 19344647,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:10:37.162Z"
+      "millis": 40018004,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:20:51.499Z"
     },
     {
-      "millis": 19354681,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:10:47.197Z"
+      "millis": 40028017,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:21:01.511Z"
     },
     {
-      "millis": 19364615,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:10:57.131Z"
+      "millis": 40038015,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:21:11.510Z"
     },
     {
-      "millis": 19374650,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:11:07.165Z"
+      "millis": 40048018,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:21:21.513Z"
     },
     {
-      "millis": 19384683,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:11:17.199Z"
+      "millis": 40058030,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:21:31.524Z"
     },
     {
-      "millis": 19394634,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:11:27.150Z"
+      "millis": 40068022,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:21:41.516Z"
     },
     {
-      "millis": 19404761,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:11:37.277Z"
+      "millis": 40078022,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:21:51.516Z"
     },
     {
-      "millis": 19414661,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:11:47.193Z"
+      "millis": 40088036,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:22:01.529Z"
     },
     {
-      "millis": 19424675,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:11:57.190Z"
+      "millis": 40098064,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:22:11.558Z"
     },
     {
-      "millis": 19434678,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:12:07.194Z"
+      "millis": 40108059,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:22:21.553Z"
     },
     {
-      "millis": 19444690,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:12:17.205Z"
+      "millis": 40118053,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:22:31.551Z"
     },
     {
-      "millis": 19454728,
-      "temperature": 17.4,
-      "humidity": 65,
-      "dewPoint": 10.4,
-      "serverTime": "2025-12-07T14:12:27.244Z"
+      "millis": 40128067,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:22:41.561Z"
+    },
+    {
+      "millis": 40138065,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:22:51.559Z"
+    },
+    {
+      "millis": 40148078,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:23:01.582Z"
+    },
+    {
+      "millis": 40158081,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:23:11.576Z"
+    },
+    {
+      "millis": 40168107,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:23:21.601Z"
+    },
+    {
+      "millis": 40178085,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:23:31.580Z"
+    },
+    {
+      "millis": 40188083,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:23:41.571Z"
+    },
+    {
+      "millis": 40198084,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:23:51.592Z"
+    },
+    {
+      "millis": 40208104,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:24:01.593Z"
+    },
+    {
+      "millis": 40218144,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:24:11.634Z"
+    },
+    {
+      "millis": 40228179,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:24:21.667Z"
+    },
+    {
+      "millis": 40238117,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:24:31.612Z"
+    },
+    {
+      "millis": 40248147,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:24:41.641Z"
+    },
+    {
+      "millis": 40258183,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:24:51.677Z"
+    },
+    {
+      "millis": 40268161,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:25:01.657Z"
+    },
+    {
+      "millis": 40278158,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:25:11.652Z"
+    },
+    {
+      "millis": 40288191,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:25:21.685Z"
+    },
+    {
+      "millis": 40298160,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:25:31.655Z"
+    },
+    {
+      "millis": 40308161,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:25:41.654Z"
+    },
+    {
+      "millis": 40318163,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:25:51.657Z"
+    },
+    {
+      "millis": 40328178,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:26:01.672Z"
+    },
+    {
+      "millis": 40338199,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:26:11.693Z"
+    },
+    {
+      "millis": 40348189,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:26:21.683Z"
+    },
+    {
+      "millis": 40358183,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:26:31.677Z"
+    },
+    {
+      "millis": 40368200,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:26:41.720Z"
+    },
+    {
+      "millis": 40378193,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:26:51.687Z"
+    },
+    {
+      "millis": 40388187,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:27:01.681Z"
+    },
+    {
+      "millis": 40398203,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:27:11.698Z"
+    },
+    {
+      "millis": 40408205,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:27:21.698Z"
+    },
+    {
+      "millis": 40418207,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:27:31.700Z"
+    },
+    {
+      "millis": 40428207,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:27:41.701Z"
+    },
+    {
+      "millis": 40438208,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:27:51.701Z"
+    },
+    {
+      "millis": 40448232,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:28:01.725Z"
+    },
+    {
+      "millis": 40458230,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:28:11.725Z"
+    },
+    {
+      "millis": 40468250,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:28:21.743Z"
+    },
+    {
+      "millis": 40478241,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:28:31.734Z"
+    },
+    {
+      "millis": 40488246,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:28:41.739Z"
+    },
+    {
+      "millis": 40498252,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:28:51.746Z"
+    },
+    {
+      "millis": 40508261,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:29:01.772Z"
+    },
+    {
+      "millis": 40518262,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:29:11.762Z"
+    },
+    {
+      "millis": 40528268,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:29:21.761Z"
+    },
+    {
+      "millis": 40538290,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:29:31.775Z"
+    },
+    {
+      "millis": 40548286,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:29:41.770Z"
+    },
+    {
+      "millis": 40558302,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:29:51.792Z"
+    },
+    {
+      "millis": 40568315,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:30:01.800Z"
+    },
+    {
+      "millis": 40578329,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:30:11.814Z"
+    },
+    {
+      "millis": 40588322,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:30:21.809Z"
+    },
+    {
+      "millis": 40598323,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:30:31.802Z"
+    },
+    {
+      "millis": 40608338,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:30:41.817Z"
+    },
+    {
+      "millis": 40618342,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:30:51.838Z"
+    },
+    {
+      "millis": 40628359,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:31:01.837Z"
+    },
+    {
+      "millis": 40638359,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:31:11.837Z"
+    },
+    {
+      "millis": 40648373,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:31:21.852Z"
+    },
+    {
+      "millis": 40658376,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:31:31.858Z"
+    },
+    {
+      "millis": 40668398,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:31:41.882Z"
+    },
+    {
+      "millis": 40678396,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:31:51.879Z"
+    },
+    {
+      "millis": 40688413,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:32:01.904Z"
+    },
+    {
+      "millis": 40698402,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:32:11.886Z"
+    },
+    {
+      "millis": 40708401,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:32:21.884Z"
+    },
+    {
+      "millis": 40718418,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:32:31.898Z"
+    },
+    {
+      "millis": 40728414,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:32:41.894Z"
+    },
+    {
+      "millis": 40738442,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:32:51.922Z"
+    },
+    {
+      "millis": 40748478,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:33:01.958Z"
+    },
+    {
+      "millis": 40758453,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:33:11.932Z"
+    },
+    {
+      "millis": 40768444,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:33:21.924Z"
+    },
+    {
+      "millis": 40778439,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:33:31.932Z"
+    },
+    {
+      "millis": 40788516,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:33:42.008Z"
+    },
+    {
+      "millis": 40798552,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:33:52.045Z"
+    },
+    {
+      "millis": 40808488,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:34:01.980Z"
+    },
+    {
+      "millis": 40818520,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:34:12.013Z"
+    },
+    {
+      "millis": 40828462,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:34:21.953Z"
+    },
+    {
+      "millis": 40838491,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:34:31.975Z"
+    },
+    {
+      "millis": 40848524,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:34:42.008Z"
+    },
+    {
+      "millis": 40858559,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:34:52.044Z"
+    },
+    {
+      "millis": 40868490,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:35:01.975Z"
+    },
+    {
+      "millis": 40878529,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:35:12.013Z"
+    },
+    {
+      "millis": 40888563,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:35:22.047Z"
+    },
+    {
+      "millis": 40898598,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:35:32.089Z"
+    },
+    {
+      "millis": 40908537,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:35:42.028Z"
+    },
+    {
+      "millis": 40918549,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:35:52.049Z"
+    },
+    {
+      "millis": 40928552,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:36:02.043Z"
+    },
+    {
+      "millis": 40938574,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:36:12.066Z"
+    },
+    {
+      "millis": 40948673,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:36:22.164Z"
+    },
+    {
+      "millis": 40958564,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:36:32.055Z"
+    },
+    {
+      "millis": 40968642,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:36:42.120Z"
+    },
+    {
+      "millis": 40978675,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:36:52.153Z"
+    },
+    {
+      "millis": 40988609,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:37:02.088Z"
+    },
+    {
+      "millis": 40998644,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:37:12.123Z"
+    },
+    {
+      "millis": 41008681,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:37:22.160Z"
+    },
+    {
+      "millis": 41018591,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:37:32.069Z"
+    },
+    {
+      "millis": 41028596,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:37:42.074Z"
+    },
+    {
+      "millis": 41038684,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:37:52.176Z"
+    },
+    {
+      "millis": 41048615,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:38:02.107Z"
+    },
+    {
+      "millis": 41058620,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:38:12.111Z"
+    },
+    {
+      "millis": 41068627,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:38:22.118Z"
+    },
+    {
+      "millis": 41078631,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:38:32.121Z"
+    },
+    {
+      "millis": 41088659,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:38:42.150Z"
+    },
+    {
+      "millis": 41098691,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:38:52.178Z"
+    },
+    {
+      "millis": 41108727,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:39:02.214Z"
+    },
+    {
+      "millis": 41118763,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:39:12.249Z"
+    },
+    {
+      "millis": 41128666,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:39:22.152Z"
+    },
+    {
+      "millis": 41138733,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:39:32.219Z"
+    },
+    {
+      "millis": 41148766,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:39:42.251Z"
+    },
+    {
+      "millis": 41262127,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:41:35.625Z"
+    },
+    {
+      "millis": 41322130,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:42:35.621Z"
+    },
+    {
+      "millis": 41382080,
+      "temperature": 16.1,
+      "humidity": 63,
+      "dewPoint": 8.7,
+      "serverTime": "2025-12-11T07:43:35.570Z"
+    },
+    {
+      "millis": 41442144,
+      "temperature": 16.1,
+      "humidity": 64,
+      "dewPoint": 8.9,
+      "serverTime": "2025-12-11T07:44:35.634Z"
     }
   ]
 }
