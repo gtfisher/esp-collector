@@ -78,13 +78,18 @@ if (readings.length) {
 }
 
 async function getReading() {
-    try {
-      const res = await fetch(ESP_URL);
-      const data = await res.json();
-  
-      // Add server timestamp
-      data.serverTime = new Date().toISOString();
-  
+  try {
+    const res = await fetch(ESP_URL);
+    const data = await res.json();
+
+    // Add server timestamp
+    data.serverTime = new Date().toISOString();
+
+    if (data.temerature === 0 && data.humidity === 0) {
+      console.log('Error reading:', data.serverTime, 'temp:', data.temperature, 'hum:', data.humidity);
+
+    }
+    else {
       // Update min/max trackers
       if (!isNaN(data.temperature)) {
         if (data.temperature < lowestTemp) {
@@ -98,7 +103,7 @@ async function getReading() {
           highHumidityTime = data.serverTime;
         }
       }
-  
+
       readings.push(data);
       if (readings.length > READINGS_LIMIT) readings.shift();
 
@@ -112,25 +117,26 @@ async function getReading() {
 
       // Write to daily CSV
       writeReadingToCSV(data);
-  
-      //console.log('New reading:', data);
-      console.log('reading:', data.serverTime, data.millis, 'temp:', data.temperature, 'hum:', data.humidity, "dp:", data.dewPoint);
-    } catch (err) {
-      console.error('Error fetching data:', err.message);
     }
-  }
 
-  const intervalId = setInterval(getReading, SAMPLE_RATE * 1000);
+    //console.log('New reading:', data);
+    console.log('reading:', data.serverTime, data.millis, 'temp:', data.temperature, 'hum:', data.humidity, "dp:", data.dewPoint);
+  } catch (err) {
+    console.error('Error fetching data:', err.message);
+  }
+}
+
+const intervalId = setInterval(getReading, SAMPLE_RATE * 1000);
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-   if (readings.length === 0) return res.send('<h1>No readings yet...</h1>');
-    const latest = readings[readings.length - 1];
-    res.render('index', { latest, lowestTemp, lowTempTime, highestHumidity, highHumidityTime });
+router.get('/', function (req, res, next) {
+  if (readings.length === 0) return res.send('<h1>No readings yet...</h1>');
+  const latest = readings[readings.length - 1];
+  res.render('index', { latest, lowestTemp, lowTempTime, highestHumidity, highHumidityTime });
 });
 
 // History view (HTML)
-router.get('/history', function(req, res, next) {
+router.get('/history', function (req, res, next) {
   // Read today's CSV file
   const csvPath = getCsvPath();
   let csvData = [];
@@ -161,7 +167,7 @@ router.get('/history', function(req, res, next) {
 
 // History JSON endpoint
 // Supports optional query params: start (ISO), end (ISO), bucket (seconds), limit (number)
-router.get('/history.json', function(req, res, next) {
+router.get('/history.json', function (req, res, next) {
   try {
     const start = req.query.start ? Date.parse(req.query.start) : null;
     const end = req.query.end ? Date.parse(req.query.end) : null;
@@ -219,12 +225,12 @@ router.get('/history.json', function(req, res, next) {
 });
 
 // Chart page
-router.get('/chart', function(req, res, next) {
+router.get('/chart', function (req, res, next) {
   res.render('chart');
 });
 
 // Download today's CSV file
-router.get('/download-today.csv', function(req, res, next) {
+router.get('/download-today.csv', function (req, res, next) {
   try {
     const csvPath = getCsvPath();
     if (fs.existsSync(csvPath)) {
@@ -238,7 +244,7 @@ router.get('/download-today.csv', function(req, res, next) {
 });
 
 // Documentation page
-router.get('/docs', function(req, res, next) {
+router.get('/docs', function (req, res, next) {
   try {
     const inoPath = path.join(__dirname, '..', 'dht11-web-json.ino');
     let arduinoCode = '';
@@ -253,7 +259,7 @@ router.get('/docs', function(req, res, next) {
 });
 
 // expose a stop() to allow graceful shutdown (clears interval)
-router.stop = function() {
+router.stop = function () {
   try {
     clearInterval(intervalId);
     console.log('Cleared reading interval');
