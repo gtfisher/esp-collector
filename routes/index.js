@@ -3,6 +3,7 @@ var router = express.Router();
 const path = require('path');
 const fs = require('fs');
 const low = require('lowdb');
+const dns = require('dns');
 const { google } = require('googleapis');
 //const fetch = require('node-fetch');
 const FileSync = require('lowdb/adapters/FileSync');
@@ -52,6 +53,7 @@ function writeReadingToCSV(data) {
     ensureCsvHeader();
     const csvPath = getCsvPath();
     const row = [
+      data.serverDate || '',
       data.serverTime || '',
       data.millis || '',
       data.temperature !== undefined ? data.temperature : '',
@@ -127,7 +129,9 @@ async function getReading() {
     const data = await res.json();
 
     // Add server timestamp
-    data.serverTime = new Date().toISOString();
+    data.serverTime = new Date().toLocaleTimeString();
+    data.serverDate = new Date().toLocaleDateString('en-UK');
+
     const currentHour = new Date().getHours();
 
     if (data.temerature === 0 && data.humidity === 0) {
@@ -159,20 +163,21 @@ async function getReading() {
         const trimmed = all.slice(-READINGS_LIMIT);
         db.set('readings', trimmed).write();
       }
-      // if (currentHour !== lastloggedHour) {
-      if (true) {
+      if (currentHour !== lastloggedHour) {
 
         lastloggedHour = currentHour;
         console.log(`Log to sheets new hour: ${currentHour}`);
 
         const isConnected = await checkInternet();
 
+
         // Append to Google Sheets
         if (sheets && isConnected) {
-          try { 
+          try {
+          
             const resource = {
               values: [
-                [data.serverTime, data.temperature, data.humidity]
+                [data.serverDate, data.serverTime, data.temperature, data.humidity, data.dewPoint]
               ]
             };
             await sheets.spreadsheets.values.append({
@@ -206,6 +211,7 @@ initializeGoogleSheets();
 router.get('/', function (req, res, next) {
   if (readings.length === 0) return res.send('<h1>No readings yet...</h1>');
   const latest = readings[readings.length - 1];
+  console.log(`latest: ${JSON.stringify(latest)}`)
   res.render('index', { latest, lowestTemp, lowTempTime, highestHumidity, highHumidityTime });
 });
 
