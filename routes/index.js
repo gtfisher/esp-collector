@@ -3,6 +3,8 @@ var router = express.Router();
 const path = require('path');
 const fs = require('fs');
 const low = require('lowdb');
+const { google } = require('googleapis');
+//const fetch = require('node-fetch');
 const FileSync = require('lowdb/adapters/FileSync');
 
 // Configurable via environment (.env)
@@ -15,6 +17,12 @@ const dbFile = path.join(__dirname, '..', 'data', 'readings.json');
 const adapter = new FileSync(dbFile);
 const db = low(adapter);
 db.defaults({ readings: [] }).write();
+
+const SERVICE_ACCOUNT_ACCOUNT_FILE = process.env.SERVICE_ACCOUNT_ACCOUNT_FILE;
+const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
+const SPREADSHEET_ID =   process.env.SPREADSHEET_ID ; // Get this from the sheet's URL
+const RANGE = 'Sheet1!A:C'; // The sheet name and range (e.g., A:C to cover columns A, B, C)    
+let sheets;
 
 // CSV directory for daily logs
 const csvDir = path.join(__dirname, '..', 'data', 'csv');
@@ -56,12 +64,47 @@ function writeReadingToCSV(data) {
   }
 }
 
+async function initializeGoogleSheets() {
+    try {
+        console.log('initializeGoogleSheets');
+        // Authenticate using the Service Account
+        const auth = new google.auth.GoogleAuth({
+            keyFile: SERVICE_ACCOUNT_ACCOUNT_FILE,
+            scopes: SCOPES,
+        });
+        // Initialize the sheets API client 
+        sheets = google.sheets({ version: 'v4', auth });
+        console.log('Google Sheets client initialized successfully.');
+    } catch (error) {
+        console.error('ERROR during Google Sheets initialization:', error.message);
+
+        // Exit the process if we cannot initialize the sheets client
+        process.exit(1);
+    }
+};
+
+async function checkInternet() {
+    console
+    try {
+        await dns.promises.lookup('google.com');
+        console.log('Internet connection available');
+        return true;
+    } catch (err) {
+        console.error('No internet connection:', err.message);
+        if (err.code === "ENOTFOUND") {
+            return false;
+        }
+        return false;
+    }
+}
+
 // Load last N readings from DB on startup
 let readings = db.get('readings').takeRight(READINGS_LIMIT).value() || [];
 let lowestTemp = Infinity;
 let lowTempTime = null;
 let highestHumidity = -Infinity;
 let highHumidityTime = null;
+let lastloggedHour = -1;
 
 // Initialize min/max from existing readings
 if (readings.length) {
@@ -79,11 +122,13 @@ if (readings.length) {
 
 async function getReading() {
   try {
+    console.log('Fetching data from ESP at', ESP_URL);
     const res = await fetch(ESP_URL);
     const data = await res.json();
 
     // Add server timestamp
     data.serverTime = new Date().toISOString();
+    const currentHour = new Date().getHours();
 
     if (data.temerature === 0 && data.humidity === 0) {
       console.log('Error reading:', data.serverTime, 'temp:', data.temperature, 'hum:', data.humidity);
@@ -114,6 +159,33 @@ async function getReading() {
         const trimmed = all.slice(-READINGS_LIMIT);
         db.set('readings', trimmed).write();
       }
+      // if (currentHour !== lastloggedHour) {
+      if (true) {
+
+        lastloggedHour = currentHour;
+        console.log(`Log to sheets new hour: ${currentHour}`);
+
+        const isConnected = await checkInternet();
+
+        // Append to Google Sheets
+        if (sheets && isConnected) {
+          try { 
+            const resource = {
+              values: [
+                [data.serverTime, data.temperature, data.humidity]
+              ]
+            };
+            await sheets.spreadsheets.values.append({
+              spreadsheetId: SPREADSHEET_ID,
+              range: RANGE,
+              valueInputOption: 'RAW',
+              resource,
+            });
+          } catch (err) {
+            console.error('Error appending to Google Sheets:', err.message);
+          }
+        }
+      }
 
       // Write to daily CSV
       writeReadingToCSV(data);
@@ -127,6 +199,8 @@ async function getReading() {
 }
 
 const intervalId = setInterval(getReading, SAMPLE_RATE * 1000);
+
+initializeGoogleSheets();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
