@@ -24,12 +24,14 @@
     }
   </script>
     <div class="card">
-        <h1>Latest Reading</h1>
+        <h1>Latest Reading (<%= latest.serverTime %>)</h1>
         <p><a href="/history" class="button">View History</a></p>
          <p>
           <i class="fas fa-calendar-alt"></i>
-          <strong>Server Time:</strong> <span style="font-family: monospace;" id="serverTimeSpan" data-time="<%= latest.serverTime %>"></span>
+          <strong>Server time:</strong> <%= latest.serverDate %> <%= latest.serverTime %>
+
         </p>
+        
         <p>
           <i class="fas fa-clock"></i>
           <strong>Millis (ESP uptime):</strong> <%= latest.millis %>
