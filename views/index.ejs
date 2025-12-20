@@ -88,12 +88,12 @@
 
         const lowTempEl = document.getElementById('lowTempTimeSpan');
         if (lowTempEl && lowTempEl.dataset.time) {
-          lowTempEl.textContent = formatTimestamp(lowTempEl.dataset.time);
+          lowTempEl.textContent = lowTempEl.dataset.time;
         }
         
         const highHumidityEl = document.getElementById('highHumidityTimeSpan');
         if (highHumidityEl && highHumidityEl.dataset.time) {
-          highHumidityEl.textContent = formatTimestamp(highHumidityEl.dataset.time);
+          highHumidityEl.textContent = highHumidityEl.dataset.time;
         }
 
         // keep auto-reload to refresh latest reading
